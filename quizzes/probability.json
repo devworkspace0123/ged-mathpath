@@ -1,0 +1,60 @@
+{
+  "topic": "Probability of an Event",
+  "questions": [
+    {
+      "question": "In a shipment of toys from a manufacturer, the probability that a toy is defective is $0.05$. If Marie selects 2 toys from the shipment and the selections are independent, what is the probability that both toys are defective?",
+      "options": [
+        "0.0025",
+        "0.05",
+        "0.10",
+        "0.25"
+      ],
+      "answer": 0,
+      "explanation": "Since the two selections are independent, multiply the probabilities: $0.05 \\times 0.05 = 0.0025$. Therefore, the probability that both toys are defective is $0.0025$."
+    },
+    {
+      "question": "A bag contains 5 red marbles and 3 blue marbles. If a marble is selected, replaced, and another marble is selected, what is the probability of selecting two red marbles?",
+      "options": [
+        "$\\frac{5}{64}$",
+        "$\\frac{25}{64}$",
+        "$\\frac{10}{16}$",
+        "$\\frac{25}{40}$"
+      ],
+      "answer": 1,
+      "explanation": "Because the marble is replaced, the events are independent. The probability of red each time is $\\frac{5}{8}$. Multiply: $\\frac{5}{8}\\times\\frac{5}{8}=\\frac{25}{64}$."
+    },
+    {
+      "question": "A standard six-sided die is rolled twice. What is the probability of rolling a 4 on the first roll and a 4 on the second roll?",
+      "options": [
+        "$\\frac{1}{6}$",
+        "$\\frac{1}{12}$",
+        "$\\frac{1}{36}$",
+        "$\\frac{2}{36}$"
+      ],
+      "answer": 2,
+      "explanation": "The probability of rolling a 4 on one roll is $\\frac{1}{6}$. Since the rolls are independent, multiply: $\\frac{1}{6}\\times\\frac{1}{6}=\\frac{1}{36}$."
+    },
+    {
+      "question": "A box contains 10 light bulbs, and 2 are defective. If two bulbs are selected without replacement, what is the probability that both bulbs are defective?",
+      "options": [
+        "$\\frac{1}{45}$",
+        "$\\frac{2}{10}$",
+        "$\\frac{4}{100}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "Because the bulbs are not replaced, the events are dependent. The probability of the first defective bulb is $\\frac{2}{10}$. After choosing one defective bulb, 1 defective bulb remains out of 9 total bulbs: $\\frac{1}{9}$. Multiply: $\\frac{2}{10}\\times\\frac{1}{9}=\\frac{2}{90}=\\frac{1}{45}$."
+    },
+    {
+      "question": "A spinner has 4 equal sections: red, blue, green, and yellow. If the spinner is spun twice, what is the probability of landing on red both times?",
+      "options": [
+        "$\\frac{1}{4}$",
+        "$\\frac{1}{8}$",
+        "$\\frac{1}{16}$",
+        "$\\frac{2}{4}$"
+      ],
+      "answer": 2,
+      "explanation": "The probability of landing on red once is $\\frac{1}{4}$. Since the spinner spins are independent, multiply: $\\frac{1}{4}\\times\\frac{1}{4}=\\frac{1}{16}$."
+    }
+  ]
+}

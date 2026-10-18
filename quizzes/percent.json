@@ -1,0 +1,60 @@
+{
+  "topic": "Percents",
+  "questions": [
+    {
+      "question": "Jordan earns a monthly base salary of \\$2,600 as a furniture salesperson. He also earns a $7\\%$ commission on the amount of monthly sales over \\$12,000. This month, Jordan sold $8$ sofas with an average selling price of \\$3,500 each. What was Jordan's total pay for the month?",
+      "options": [
+        "\\$3,720",
+        "\\$3,800",
+        "\\$3,940",
+        "\\$4,080"
+      ],
+      "answer": 0,
+      "explanation": "Total sales = \\$28,000. Commission applies only to sales over \\$12,000, so the commission is $7\\%$ of \\$16,000, which is \\$1,120. Total pay = \\$2,600 + \\$1,120 = \\$3,720."
+    },
+    {
+      "question": "A condominium was listed for \\$125,000 three years ago. Today, it is worth \\$120,000. What is the percent decrease in the value of the condominium?",
+      "options": [
+        "$2\\%$",
+        "$4\\%$",
+        "$5\\%$",
+        "$8\\%$"
+      ],
+      "answer": 1,
+      "explanation": "The decrease is \\$5,000. Divide by the original price: $\\frac{5,000}{125,000}=0.04=4\\%$."
+    },
+    {
+      "question": "Sophia works at a café where she keeps $50\\%$ of the day's service charges and $100\\%$ of the tips customers leave. Today, the service charges totaled \\$80, and customers left \\$24 in tips. How much money did Sophia earn from service charges and tips today?",
+      "options": [
+        "\\$40",
+        "\\$52",
+        "\\$64",
+        "\\$104"
+      ],
+      "answer": 2,
+      "explanation": "Sophia keeps $50\\%$ of \\$80, which is \\$40, plus all \\$24 in tips. Total earnings = \\$64."
+    },
+    {
+      "question": "After expanding a rectangular patio by $25\\%$, its area is now $500$ square feet. What was the original area of the patio?",
+      "options": [
+        "375 square feet",
+        "400 square feet",
+        "425 square feet",
+        "475 square feet"
+      ],
+      "answer": 1,
+      "explanation": "The new area is $125\\%$ of the original. Original area = $500 \\div 1.25 = 400$ square feet."
+    },
+    {
+      "question": "Natalie ordered a meal that cost \\$18.75 before tax. An $8\\%$ sales tax was added, and then she left a $15\\%$ tip on the total after tax. To the nearest cent, how much did Natalie pay altogether?",
+      "options": [
+        "\\$22.03",
+        "\\$23.22",
+        "\\$23.29",
+        "\\$24.06"
+      ],
+      "answer": 2,
+      "explanation": "After the $8\\%$ tax: \\$18.75 × 1.08 = \\$20.25. The tip is $15\\%$ of \\$20.25, which is approximately \\$3.04. Total = \\$20.25 + \\$3.04 = \\$23.29."
+    }
+  ]
+}

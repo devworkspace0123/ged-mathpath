@@ -1,0 +1,60 @@
+{
+  "topic": "Slope and Equations of Lines",
+  "questions": [
+    {
+      "question": "What is the equation of the line that has a slope of $4$ and passes through the point $(2,-3)$?",
+      "options": [
+        "$y=4x-11$",
+        "$y=4x+5$",
+        "$y=-4x+5$",
+        "$y=2x-3$"
+      ],
+      "answer": 0,
+      "explanation": "Use the point-slope form $y-y_1=m(x-x_1)$. Substitute $m=4$ and $(2,-3)$: $y+3=4(x-2)$. Simplifying gives $y+3=4x-8$, so $y=4x-11$."
+    },
+    {
+      "question": "What is the equation of the line that passes through the points $(-2,5)$ and $(4,-7)$?",
+      "options": [
+        "$y=-2x+1$",
+        "$y=2x+1$",
+        "$y=-2x-1$",
+        "$y=2x-1$"
+      ],
+      "answer": 0,
+      "explanation": "First find the slope: $m=\\frac{-7-5}{4-(-2)}=\\frac{-12}{6}=-2$. Using $y=mx+b$ and the point $(-2,5)$: $5=-2(-2)+b$, so $b=1$. Therefore, the equation is $y=-2x+1$."
+    },
+    {
+      "question": "What is the slope of a line that is perpendicular to the line $3x+6y=12$?",
+      "options": [
+        "$-2$",
+        "$-\\frac{1}{2}$",
+        "$\\frac{1}{2}$",
+        "$2$"
+      ],
+      "answer": 3,
+      "explanation": "Rewrite the equation in slope-intercept form: $6y=-3x+12$, so $y=-\\frac{1}{2}x+2$. The slope is $-\\frac{1}{2}$. A perpendicular line has the opposite reciprocal slope, which is $2$."
+    },
+    {
+      "question": "A line passes through the points $(1,4)$ and $(5,12)$. What is the slope of the line?",
+      "options": [
+        "$1$",
+        "$2$",
+        "$3$",
+        "$4$"
+      ],
+      "answer": 1,
+      "explanation": "Use the slope formula $m=\\frac{y_2-y_1}{x_2-x_1}$. $m=\\frac{12-4}{5-1}=\\frac{8}{4}=2$. Therefore, the slope is $2$."
+    },
+    {
+      "question": "A gym charges a one-time registration fee of $30 and $15 for each month of membership. Which equation represents the total cost $C$ after $m$ months?",
+      "options": [
+        "$C=15m$",
+        "$C=30m+15$",
+        "$C=15m+30$",
+        "$C=45m$"
+      ],
+      "answer": 2,
+      "explanation": "The $30 registration fee is a fixed starting cost, while $15 is charged for each month. Therefore, the equation is $C=15m+30$."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic": "Functions",
+  "questions": [
+    {
+      "question": "A taxi company uses the function $C(m)=3.50+2.25m$ to calculate the cost $C$ of a ride that travels $m$ miles. How much does a $8$-mile ride cost?",
+      "options": [
+        "$18.50$",
+        "$19.25$",
+        "$21.50$",
+        "$24.00$"
+      ],
+      "answer": 1,
+      "explanation": "Substitute $8$ for $m$: $C(8)=3.50+2.25(8)=3.50+18=21.50$. Therefore, the cost of the ride is $21.50$."
+    },
+    {
+      "question": "What is the value of the function $f(x)=2x^2-5x+3$ when $x=4$?",
+      "options": [
+        "$15$",
+        "$19$",
+        "$20$",
+        "$35$"
+      ],
+      "answer": 1,
+      "explanation": "Substitute $4$ for $x$: $f(4)=2(4^2)-5(4)+3=2(16)-20+3=32-20+3=15$. Therefore, $f(4)=15$."
+    },
+    {
+      "question": "The function $f(x)=5x-7$ is used to calculate the number of points a player earns after completing $x$ levels of a game. What does $f(6)$ represent?",
+      "options": [
+        "The number of levels completed when the player earns $6$ points",
+        "The number of points earned after completing $6$ levels",
+        "The number of points needed to complete the game",
+        "The total number of levels in the game"
+      ],
+      "answer": 1,
+      "explanation": "The notation $f(6)$ means the value of the function when $x=6$. Since $x$ represents the number of levels completed, $f(6)$ represents the number of points earned after completing $6$ levels."
+    },
+    {
+      "question": "The table shows values of a function $f$.",
+      "options": [
+        "$f(2)=4$",
+        "$f(2)=6$",
+        "$f(2)=8$",
+        "$f(2)=10$"
+      ],
+      "answer": 2,
+      "explanation": "According to the table, when $x=2$, the corresponding value of $f(x)$ is $8$. Therefore, $f(2)=8$."
+    },
+    {
+      "question": "A music service charges a monthly fee according to the function $A(n)=10n+5$, where $n$ is the number of months. Another service charges according to $B(n)=12n-3$. For how many months will the two services have the same total cost?",
+      "options": [
+        "$2$ months",
+        "$3$ months",
+        "$4$ months",
+        "$5$ months"
+      ],
+      "answer": 2,
+      "explanation": "Set the two functions equal: $10n+5=12n-3$. Add $3$ to both sides: $10n+8=12n$. Subtract $10n$: $8=2n$. Therefore, $n=4$, so the services cost the same after $4$ months."
+    }
+  ]
+}

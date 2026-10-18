@@ -1,0 +1,60 @@
+{
+  "topic": "Ordering Fractions and Decimals",
+  "questions": [
+    {
+      "question": "Arrange the following numbers from least to greatest: $0.45$, $\\frac{3}{4}$, $0.6$, $\\frac{1}{2}$",
+      "options": [
+        "$0.45, \\frac{1}{2}, 0.6, \\frac{3}{4}$",
+        "$\\frac{1}{2}, 0.45, \\frac{3}{4}, 0.6$",
+        "$0.6, 0.45, \\frac{1}{2}, \\frac{3}{4}$",
+        "$\\frac{3}{4}, 0.6, \\frac{1}{2}, 0.45$"
+      ],
+      "answer": 0,
+      "explanation": "Convert fractions to decimals: $\\frac{1}{2}=0.5$ and $\\frac{3}{4}=0.75$. Now compare: $0.45 < 0.5 < 0.6 < 0.75$."
+    },
+    {
+      "question": "Between which pair of decimals should the fraction $\\frac{5}{8}$ be placed on a number line?",
+      "options": [
+        "$0.4$ and $0.5$",
+        "$0.5$ and $0.6$",
+        "$0.6$ and $0.7$",
+        "$0.7$ and $0.8$"
+      ],
+      "answer": 2,
+      "explanation": "Convert the fraction to a decimal: $\\frac{5}{8}=0.625$. Since $0.6 < 0.625 < 0.7$, it belongs between $0.6$ and $0.7$."
+    },
+    {
+      "question": "Maya is baking a cake. She uses $\\frac{3}{4}$ cup of flour, $\\frac{1}{2}$ cup of sugar, $\\frac{2}{3}$ cup of milk, and $\\frac{1}{4}$ cup of butter. Arrange the ingredients from the greatest amount used to the least amount used.",
+      "options": [
+        "Flour, Milk, Sugar, Butter",
+        "Milk, Flour, Butter, Sugar",
+        "Butter, Sugar, Milk, Flour",
+        "Sugar, Butter, Flour, Milk"
+      ],
+      "answer": 0,
+      "explanation": "Convert the fractions to decimals: $\\frac{3}{4}=0.75$, $\\frac{2}{3}\\approx0.67$, $\\frac{1}{2}=0.5$, and $\\frac{1}{4}=0.25$. The order from greatest to least is Flour, Milk, Sugar, Butter."
+    },
+    {
+      "question": "Arrange the following numbers from least to greatest: $-\\frac{3}{4}$, $\\frac{1}{2}$, $-\\frac{1}{4}$, $\\frac{2}{3}$, $0$",
+      "options": [
+        "$-\\frac{3}{4}, -\\frac{1}{4}, 0, \\frac{1}{2}, \\frac{2}{3}$",
+        "$-\\frac{1}{4}, -\\frac{3}{4}, 0, \\frac{2}{3}, \\frac{1}{2}$",
+        "$0, -\\frac{3}{4}, -\\frac{1}{4}, \\frac{1}{2}, \\frac{2}{3}$",
+        "$\\frac{2}{3}, \\frac{1}{2}, 0, -\\frac{1}{4}, -\\frac{3}{4}$"
+      ],
+      "answer": 0,
+      "explanation": "Negative numbers are smaller than positive numbers. Compare the negatives: $-\\frac{3}{4}=-0.75$ and $-\\frac{1}{4}=-0.25$. Therefore, $-0.75 < -0.25 < 0 < 0.5 < 0.67$."
+    },
+    {
+      "question": "A temperature sensor records these temperatures during a winter day: $-0.8^\\circ C$, $-\\frac{1}{2}^\\circ C$, $0.25^\\circ C$, and $\\frac{3}{4}^\\circ C$. Which list shows the temperatures arranged from least to greatest?",
+      "options": [
+        "$-0.8^\\circ C, -\\frac{1}{2}^\\circ C, 0.25^\\circ C, \\frac{3}{4}^\\circ C$",
+        "$-\\frac{1}{2}^\\circ C, -0.8^\\circ C, 0.25^\\circ C, \\frac{3}{4}^\\circ C$",
+        "$0.25^\\circ C, -\\frac{1}{2}^\\circ C, -0.8^\\circ C, \\frac{3}{4}^\\circ C$",
+        "$\\frac{3}{4}^\\circ C, 0.25^\\circ C, -\\frac{1}{2}^\\circ C, -0.8^\\circ C$"
+      ],
+      "answer": 0,
+      "explanation": "Convert fractions to decimals: $-\\frac{1}{2}=-0.5$ and $\\frac{3}{4}=0.75$. Compare: $-0.8 < -0.5 < 0.25 < 0.75$."
+    }
+  ]
+}

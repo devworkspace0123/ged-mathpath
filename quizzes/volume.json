@@ -1,0 +1,60 @@
+{
+  "topic": "Volume",
+  "questions": [
+    {
+      "question": "A spherical balloon has a radius of 7.5 centimeters (cm). To the nearest cubic centimeter, what is the volume of the balloon? (Use $\\pi\\approx3.14$.)",
+      "options": [
+        "1,177 cubic centimeters",
+        "1,413 cubic centimeters",
+        "1,766 cubic centimeters",
+        "2,119 cubic centimeters"
+      ],
+      "answer": 2,
+      "explanation": "Use the sphere volume formula: $V=\\frac{4}{3}\\pi r^3$. Then $V=\\frac{4}{3}(3.14)(7.5)^3\\approx1766.25$ cubic centimeters. Rounded to the nearest cubic centimeter, the volume is 1,766 cubic centimeters."
+    },
+    {
+      "question": "A rectangular storage container has a volume of 960 cubic feet. Its length is 12 feet and its width is 8 feet. What is the height of the container?",
+      "options": [
+        "8 feet",
+        "10 feet",
+        "12 feet",
+        "14 feet"
+      ],
+      "answer": 1,
+      "explanation": "Use $V=lwh$. Then $960=12\\times8\\times h=96h$. Divide both sides by 96 to get $h=10$ feet."
+    },
+    {
+      "question": "A cube-shaped gift box has a volume of 729 cubic inches. What is the length of one side of the cube?",
+      "options": [
+        "7 inches",
+        "8 inches",
+        "9 inches",
+        "10 inches"
+      ],
+      "answer": 2,
+      "explanation": "Use $V=s^3$. Since $729=s^3$, take the cube root to get $s=9$ inches."
+    },
+    {
+      "question": "A cylindrical water tank holds approximately 1,256 cubic meters of water. The radius of the tank is 10 meters. What is the height of the tank? (Use $\\pi\\approx3.14$.)",
+      "options": [
+        "2 meters",
+        "3 meters",
+        "4 meters",
+        "5 meters"
+      ],
+      "answer": 2,
+      "explanation": "Use $V=\\pi r^2h$. Then $1256=3.14(10)^2h=314h$. Divide both sides by 314 to get $h=4$ meters."
+    },
+    {
+      "question": "A cone-shaped sand pile has a volume of 314 cubic feet. The radius of its base is 5 feet. Approximately what is the height of the cone? (Use $\\pi\\approx3.14$.)",
+      "options": [
+        "8 feet",
+        "10 feet",
+        "12 feet",
+        "15 feet"
+      ],
+      "answer": 2,
+      "explanation": "Use $V=\\frac{1}{3}\\pi r^2h$. Substitute the values: $314=\\frac{1}{3}(3.14)(5)^2h$. Solving for $h$ gives approximately 12 feet."
+    }
+  ]
+}

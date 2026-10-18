@@ -1,0 +1,115 @@
+{
+  "topic": "Surface Area",
+  "questions": [
+    {
+      "question": "A cube has sides measuring $5$ centimeters. What is the surface area of the cube?",
+      "options": [
+        "$25$ cm²",
+        "$100$ cm²",
+        "$150$ cm²",
+        "$125$ cm²"
+      ],
+      "answer": 2,
+      "explanation": "A cube has 6 identical square faces. Use the formula $SA=6s^2$. Substitute $5$ for $s$: $SA=6(5)^2=6(25)=150$. Therefore, the surface area is $150$ square centimeters."
+    },
+    {
+      "question": "A rectangular box has a length of $8$ feet, a width of $5$ feet, and a height of $4$ feet. What is its surface area?",
+      "options": [
+        "$184$ ft²",
+        "$160$ ft²",
+        "$144$ ft²",
+        "$200$ ft²"
+      ],
+      "answer": 0,
+      "explanation": "Use the formula $SA=2lw+2lh+2wh$. Substitute the dimensions: $SA=2(8)(5)+2(8)(4)+2(5)(4)=80+64+40=184$. Therefore, the surface area is $184$ square feet."
+    },
+    {
+      "question": "A cylinder has a radius of $3$ inches and a height of $8$ inches. Approximately what is its surface area? Use $\\pi\\approx3.14$.",
+      "options": [
+        "$150.72$ in²",
+        "$207.24$ in²",
+        "$188.40$ in²",
+        "$226.08$ in²"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=2\\pi r^2+2\\pi rh$. Substitute $r=3$ and $h=8$: $SA=2(3.14)(3)^2+2(3.14)(3)(8)=56.52+150.72=207.24$. Therefore, the surface area is approximately $207.24$ square inches."
+    },
+    {
+      "question": "A cone has a radius of $4$ centimeters and a slant height of $6$ centimeters. What is its surface area? Use $\\pi\\approx3.14$.",
+      "options": [
+        "$100.48$ cm²",
+        "$125.60$ cm²",
+        "$150.72$ cm²",
+        "$75.36$ cm²"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=\\pi r(r+l)$, where $l$ is the slant height. Substitute $r=4$ and $l=6$: $SA=3.14(4)(4+6)=3.14(40)=125.6$. Therefore, the surface area is approximately $125.6$ square centimeters."
+    },
+    {
+      "question": "A sphere has a radius of $5$ meters. What is its surface area? Use $\\pi\\approx3.14$.",
+      "options": [
+        "$157$ m²",
+        "$314$ m²",
+        "$628$ m²",
+        "$78.5$ m²"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=4\\pi r^2$. Substitute $r=5$: $SA=4(3.14)(5)^2=4(3.14)(25)=314$. Therefore, the surface area is $314$ square meters."
+    },
+    {
+      "question": "A gift box is shaped like a cube. Each side measures $9$ inches. How much wrapping paper is needed to completely cover the box?",
+      "options": [
+        "$486$ in²",
+        "$81$ in²",
+        "$324$ in²",
+        "$729$ in²"
+      ],
+      "answer": 0,
+      "explanation": "Use the formula $SA=6s^2$. Substitute $9$ for $s$: $SA=6(9)^2=6(81)=486$. Therefore, $486$ square inches of wrapping paper are needed."
+    },
+    {
+      "question": "A rectangular fish tank measures $20$ inches long, $12$ inches wide, and $10$ inches high. Ignoring the open top, what is the total area of glass needed?",
+      "options": [
+        "$880$ in²",
+        "$1,120$ in²",
+        "$960$ in²",
+        "$1,360$ in²"
+      ],
+      "answer": 0,
+      "explanation": "First find the surface area of the closed prism: $SA=2lw+2lh+2wh=2(20)(12)+2(20)(10)+2(12)(10)=480+400+240=1120$. Since the top is open, subtract the top area: $20\\times12=240$. Then $1120-240=880$. Therefore, $880$ square inches of glass are needed."
+    },
+    {
+      "question": "A cylindrical can has a radius of $5$ centimeters and a height of $12$ centimeters. Approximately how much metal is needed to make the entire can? Use $\\pi\\approx3.14$.",
+      "options": [
+        "$376.8$ cm²",
+        "$533.8$ cm²",
+        "$490$ cm²",
+        "$628$ cm²"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=2\\pi r^2+2\\pi rh$. Substitute $r=5$ and $h=12$: $SA=2(3.14)(25)+2(3.14)(5)(12)=157+376.8=533.8$. Therefore, approximately $533.8$ square centimeters of metal are needed."
+    },
+    {
+      "question": "A spherical ornament has a radius of $7$ centimeters. What is its surface area? Use $\\pi\\approx3.14$.",
+      "options": [
+        "$307.72$ cm²",
+        "$615.44$ cm²",
+        "$153.86$ cm²",
+        "$1,230.88$ cm²"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=4\\pi r^2$. Substitute $r=7$: $SA=4(3.14)(7)^2=4(3.14)(49)=615.44$. Therefore, the surface area is approximately $615.44$ square centimeters."
+    },
+    {
+      "question": "A cube has a surface area of $384$ square inches. What is the length of each side?",
+      "options": [
+        "$6$ inches",
+        "$8$ inches",
+        "$12$ inches",
+        "$16$ inches"
+      ],
+      "answer": 1,
+      "explanation": "Use the formula $SA=6s^2$. Substitute $384$ for the surface area: $384=6s^2$. Divide by 6: $64=s^2$. Take the square root: $s=8$. Therefore, each side is $8$ inches long."
+    }
+  ]
+}

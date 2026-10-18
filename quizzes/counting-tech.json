@@ -1,0 +1,60 @@
+{
+  "topic": "Counting Techniques",
+  "questions": [
+    {
+      "question": "Four digits ranging from 0 to 9 need to be selected to create a password. If repetition is allowed, how many different passwords are possible?",
+      "options": [
+        "1,000",
+        "5,040",
+        "10,000",
+        "40,000"
+      ],
+      "answer": 2,
+      "explanation": "There are 10 choices for each of the 4 digits. Using the Fundamental Counting Principle: $10 \\times 10 \\times 10 \\times 10 = 10^4 = 10,000$. Therefore, there are 10,000 possible passwords."
+    },
+    {
+      "question": "A restaurant serves custom-made omelets. Guests can select any 2 vegetables from 6 available vegetables. How many different combinations of 2 vegetables are possible?",
+      "options": [
+        "12",
+        "15",
+        "30",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "Since the order of vegetables does not matter, use combinations: $\\frac{6!}{2!(6-2)!}$. This simplifies to $\\frac{6 \\times 5}{2}=15$. Therefore, there are 15 possible combinations."
+    },
+    {
+      "question": "A clothing store sells 5 different shirts and 4 different pairs of pants. How many different outfits can be created by choosing one shirt and one pair of pants?",
+      "options": [
+        "9",
+        "16",
+        "20",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "Use the Fundamental Counting Principle. Multiply the choices: $5 \\times 4 = 20$. Therefore, there are 20 possible outfits."
+    },
+    {
+      "question": "A pizza restaurant allows customers to choose 3 different toppings from 8 available toppings. How many different topping combinations are possible?",
+      "options": [
+        "24",
+        "56",
+        "112",
+        "512"
+      ],
+      "answer": 1,
+      "explanation": "Because the order of toppings does not matter, use combinations: $\\frac{8!}{3!(8-3)!}$. This equals $\\frac{8 \\times 7 \\times 6}{3 \\times 2 \\times 1}=56$. Therefore, there are 56 possible topping combinations."
+    },
+    {
+      "question": "A security code contains 3 different letters chosen from the 26 letters of the alphabet. Letters cannot repeat. How many different security codes are possible?",
+      "options": [
+        "1,560",
+        "15,600",
+        "17,576",
+        "26,000"
+      ],
+      "answer": 1,
+      "explanation": "Because letters cannot repeat, the choices decrease: $26 \\times 25 \\times 24 = 15,600$. Therefore, there are 15,600 possible security codes."
+    }
+  ]
+}

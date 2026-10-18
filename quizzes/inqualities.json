@@ -1,0 +1,60 @@
+{
+  "topic": "Inequalities",
+  "questions": [
+    {
+      "question": "Solve the inequality: $4x-9\\ge15$",
+      "options": [
+        "$x\\ge4$",
+        "$x\\ge6$",
+        "$x\\le4$",
+        "$x\\le6$"
+      ],
+      "answer": 1,
+      "explanation": "Add $9$ to both sides: $4x\\ge24$. Divide both sides by $4$. The solution is $x\\ge6$."
+    },
+    {
+      "question": "Which value of $x$ makes the inequality true? $5x+2<27$",
+      "options": [
+        "$x=3$",
+        "$x=5$",
+        "$x=6$",
+        "$x=7$"
+      ],
+      "answer": 0,
+      "explanation": "Substitute each answer choice into the inequality. Only $x=3$ gives $17<27$, which is true."
+    },
+    {
+      "question": "Noah has $\\$2,450$ to spend on music lessons. Each lesson costs $\\$175$. What is the greatest number of full lessons Noah can pay for without spending more than his budget?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Let $n$ be the number of lessons. Write the inequality $175n\\le2450$. Dividing both sides by $175$ gives $n\\le14$. Therefore, Noah can pay for at most $14$ lessons."
+    },
+    {
+      "question": "A movie theater can hold at most $240$ people. There are already $68$ people inside. Which inequality represents the number of additional people, $p$, who can still enter the theater?",
+      "options": [
+        "$68+p\\ge240$",
+        "$68+p\\le240$",
+        "$68-p\\le240$",
+        "$240-p\\ge68$"
+      ],
+      "answer": 1,
+      "explanation": "The total number of people cannot exceed the theater's capacity of $240$. Therefore, the correct inequality is $68+p\\le240$."
+    },
+    {
+      "question": "A student must score at least $450$ points to pass an exam. The student has already earned $318$ points. Each remaining question is worth $12$ points. What is the least number of additional questions the student must answer correctly to pass the exam?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Let $q$ be the number of additional questions answered correctly. Write the inequality $318+12q\\ge450$. Subtract $318$ to get $12q\\ge132$. Divide by $12$: $q\\ge11$. The least whole number is $11$."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "topic": "Exponents",
+  "questions": [
+    {
+      "question": "Simplify the expression: $(2^8 \\div 2^3) \\times 2^2$",
+      "options": [
+        "$2^3$",
+        "$2^5$",
+        "$2^7$",
+        "$2^{13}$"
+      ],
+      "answer": 2,
+      "explanation": "When dividing powers with the same base, subtract exponents: $2^{8-3}=2^5$. Then multiply powers with the same base and add exponents: $2^{5+2}=2^7$."
+    },
+    {
+      "question": "Simplify the expression: $(2^9 \\times 3^5) \\times (2^5 \\times 3)^2$",
+      "options": [
+        "$2^{14} \\times 3^7$",
+        "$2^{19} \\times 3^7$",
+        "$2^{19} \\times 3^{11}$",
+        "$2^{28} \\times 3^{10}$"
+      ],
+      "answer": 2,
+      "explanation": "First apply the power rule: $(2^5 \\times 3)^2 = 2^{10} \\times 3^2$. Then add exponents with the same base: $2^{9+10}=2^{19}$ and $3^{5+2}=3^7$."
+    },
+    {
+      "question": "A computer file doubles in size every hour. If the file starts at $5$ MB, which expression represents its size after $6$ hours?",
+      "options": [
+        "$5 \\times 2^6$",
+        "$6 \\times 2^5$",
+        "$5^6 \\times 2$",
+        "$(5 \\times 2)^6$"
+      ],
+      "answer": 0,
+      "explanation": "The file doubles every hour, so the growth factor is $2$. After 6 hours, multiply the starting size by $2^6$: $5 \\times 2^6$."
+    },
+    {
+      "question": "Simplify the expression: $(5^6 \\div 5^2) \\times 5^3$",
+      "options": [
+        "$5^1$",
+        "$5^5$",
+        "$5^7$",
+        "$5^{11}$"
+      ],
+      "answer": 2,
+      "explanation": "Divide powers with the same base by subtracting exponents: $5^{6-2}=5^4$. Then multiply by $5^3$ and add exponents: $5^{4+3}=5^7$."
+    },
+    {
+      "question": "Simplify the expression:\n\n$\\frac{2^7 \\times 2^4}{2^3}$",
+      "options": [
+        "$2^8$",
+        "$2^9$",
+        "$2^{10}$",
+        "$2^{14}$"
+      ],
+      "answer": 0,
+      "explanation": "First multiply powers with the same base: $2^{7+4}=2^{11}$. Then divide by $2^3$ and subtract exponents: $2^{11-3}=2^8$."
+    }
+  ]
+}

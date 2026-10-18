@@ -1,0 +1,61 @@
+{
+  "topic": "Perimeter and Area",
+  "questions": [
+    {
+      "question": "A rectangle has an area of 54 square inches and a length of 6 inches. What is the width of the rectangle?",
+      "options": [
+        "6 inches",
+        "8 inches",
+        "9 inches",
+        "12 inches"
+      ],
+      "answer": 2,
+      "explanation": "Area = length × width. So, width = 54 ÷ 6 = 9 inches."
+    },
+    {
+      "question": "A square and a triangle have the same area. The square has a side length of 8 inches, and the triangle has a base of 16 inches. What is the height of the triangle?",
+      "options": [
+        "4 inches",
+        "6 inches",
+        "8 inches",
+        "10 inches"
+      ],
+      "answer": 2,
+      "explanation": "The square's area is 8² = 64 square inches. Using A = ½bh, we have 64 = ½(16)h = 8h. Therefore, h = 8 inches."
+    },
+    {
+      "question": "The figure below has a perimeter of 40 units. Line segments DE and BE each have length x. What is the value of x?",
+      "image": "perimeter-area-1.png",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "The known side lengths are 7 units, 8 units, and 13 units. Set up the equation: 7 + 8 + 13 + x + x = 40. Therefore, 28 + 2x = 40, 2x = 12, and x = 6."
+    },
+    {
+      "question": "A circular garden has a radius of 7 feet. Using π ≈ 3.14, what is the area of the garden to the nearest tenth?",
+      "options": [
+        "43.9 square feet",
+        "98.0 square feet",
+        "153.9 square feet",
+        "307.7 square feet"
+      ],
+      "answer": 2,
+      "explanation": "Area = πr² = 3.14 × 7² = 3.14 × 49 = 153.86 ≈ 153.9 square feet."
+    },
+    {
+      "question": "A rectangular playground measures 28 meters by 18 meters. A fence will be built around the playground. How many meters of fencing are needed?",
+      "options": [
+        "46 meters",
+        "92 meters",
+        "100 meters",
+        "504 meters"
+      ],
+      "answer": 1,
+      "explanation": "Perimeter = 2(l + w) = 2(28 + 18) = 92 meters."
+    }
+  ]
+}

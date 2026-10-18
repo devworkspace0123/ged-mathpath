@@ -1,0 +1,60 @@
+{
+  "topic": "Unit Rates",
+  "questions": [
+    {
+      "question": "Each case contains $3$ boxes of juice. Each box contains $4$ bottles of juice. A store charges $18.00$ for one case. What is the cost of each bottle of juice?",
+      "options": [
+        "$1.25",
+        "$1.50",
+        "$1.75",
+        "$2.00"
+      ],
+      "answer": 1,
+      "explanation": "First find the total number of bottles: $3 \\times 4 = 12$ bottles. Then divide the total cost by the number of bottles: $18 \\div 12 = 1.50$. Each bottle costs $\\$1.50$."
+    },
+    {
+      "question": "Carlos worked $8$ hours and earned $120$. Mia worked $6$ hours and earned $96$. Who earned more money per hour?",
+      "options": [
+        "Carlos",
+        "Mia",
+        "They earned the same amount per hour.",
+        "There is not enough information."
+      ],
+      "answer": 1,
+      "explanation": "Find each person's hourly rate. Carlos: $120 \\div 8 = 15$ dollars per hour. Mia: $96 \\div 6 = 16$ dollars per hour. Mia earns more per hour."
+    },
+    {
+      "question": "The Canyon River Dam releases an average of $2,160,000$ cubic feet of water every day. Based on this average, about how many cubic feet of water does the dam release each hour?",
+      "options": [
+        "$60,000$",
+        "$75,000$",
+        "$90,000$",
+        "$120,000$"
+      ],
+      "answer": 2,
+      "explanation": "There are $24$ hours in a day. Divide the daily amount by $24$: $2,160,000 \\div 24 = 90,000$. The dam releases about $90,000$ cubic feet per hour."
+    },
+    {
+      "question": "A printer produces $4,500$ pages in $15$ minutes. At this rate, how many pages does the printer produce each minute?",
+      "options": [
+        "$250$",
+        "$275$",
+        "$300$",
+        "$325$"
+      ],
+      "answer": 2,
+      "explanation": "Find the unit rate by dividing pages by minutes: $4,500 \\div 15 = 300$. The printer produces $300$ pages per minute."
+    },
+    {
+      "question": "Two friends drove from their apartment to a museum, which is $24$ miles away. Because of heavy traffic, the trip took $48$ minutes. What was their average speed in miles per hour?",
+      "options": [
+        "$24$ miles per hour",
+        "$30$ miles per hour",
+        "$36$ miles per hour",
+        "$48$ miles per hour"
+      ],
+      "answer": 1,
+      "explanation": "Convert $48$ minutes to hours: $48 \\div 60 = 0.8$ hours. Use the speed formula: $\\text{Speed}=\\frac{24}{0.8}=30$. The average speed was $30$ miles per hour."
+    }
+  ]
+}

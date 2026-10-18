@@ -1,0 +1,60 @@
+{
+  "topic": "Pythagorean Theorem",
+  "questions": [
+    {
+      "question": "A hiker walks 8 miles north and then 15 miles west. Approximately how far is the hiker from the starting point?",
+      "options": [
+        "15 miles",
+        "17 miles",
+        "19 miles",
+        "23 miles"
+      ],
+      "answer": 1,
+      "explanation": "Use the Pythagorean Theorem: $8^2+15^2=d^2$. Then $64+225=289$, so $d=\\sqrt{289}=17$ miles."
+    },
+    {
+      "question": "A rectangular playground is 24 meters long and 7 meters wide. What is the distance from one corner to the opposite corner?",
+      "options": [
+        "25 meters",
+        "26 meters",
+        "28 meters",
+        "31 meters"
+      ],
+      "answer": 0,
+      "explanation": "The diagonal is the hypotenuse. Use $24^2+7^2=d^2$. Then $576+49=625$, so $d=\\sqrt{625}=25$ meters."
+    },
+    {
+      "question": "A ladder is 13 feet long and is placed against a wall. The bottom of the ladder is 5 feet from the wall. How high up the wall does the ladder reach?",
+      "options": [
+        "8 feet",
+        "10 feet",
+        "12 feet",
+        "15 feet"
+      ],
+      "answer": 2,
+      "explanation": "The ladder is the hypotenuse. Use $5^2+h^2=13^2$. Then $25+h^2=169$, so $h^2=144$ and $h=12$ feet."
+    },
+    {
+      "question": "A television screen is 20 inches wide and 21 inches tall. What is the length of its diagonal?",
+      "options": [
+        "25 inches",
+        "27 inches",
+        "29 inches",
+        "31 inches"
+      ],
+      "answer": 2,
+      "explanation": "Use the Pythagorean Theorem: $20^2+21^2=d^2$. Then $400+441=841$, so $d=\\sqrt{841}=29$ inches."
+    },
+    {
+      "question": "A rectangular garden is 18 meters long and 24 meters wide. A sprinkler sprays water in a straight line from one corner to the opposite corner. Approximately how far does the water travel?",
+      "options": [
+        "28 meters",
+        "30 meters",
+        "32 meters",
+        "42 meters"
+      ],
+      "answer": 1,
+      "explanation": "The distance across the garden is the diagonal. Use $18^2+24^2=d^2$. Then $324+576=900$, so $d=\\sqrt{900}=30$ meters."
+    }
+  ]
+}

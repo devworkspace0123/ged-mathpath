@@ -1,0 +1,60 @@
+{
+  "topic": "Squares, Square Roots, Cubes, and Cube Roots",
+  "questions": [
+    {
+  "question": "Which number makes the equation true? $\\left(\\sqrt{\\square}\\right)^2 = \\sqrt{64}$",
+  "options": [
+    "$8$",
+    "$16$",
+    "$64$",
+    "$4$"
+  ],
+  "answer": 0,
+  "explanation": "First evaluate the right side: $\\sqrt{64}=8$. Since $\\left(\\sqrt{x}\\right)^2=x$, the equation becomes $\\square=8$. Therefore, the correct answer is $8$."
+},
+    {
+      "question": "Which number makes the equation true? $\\left(\\sqrt{\\square}\\right)^2 = 25$",
+      "options": [
+        "$5$",
+        "$10$",
+        "$25$",
+        "$50$"
+      ],
+      "answer": 2,
+      "explanation": "A square root and a square are opposite operations. Since $\\sqrt{25}=5$ and $5^2=25$, the number inside the square root must be $25$."
+    },
+    {
+      "question": "Simplify the expression: $4\\sqrt{5}+2\\sqrt{5}$",
+      "options": [
+        "$6\\sqrt{5}$",
+        "$8\\sqrt{5}$",
+        "$6\\sqrt{10}$",
+        "$24\\sqrt{5}$"
+      ],
+      "answer": 0,
+      "explanation": "The radicals are the same, so add the coefficients: $(4+2)\\sqrt{5}=6\\sqrt{5}$."
+    },
+    {
+      "question": "Evaluate the expression: $3^2 \\times \\sqrt[3]{8} \\times 2^1$",
+      "options": [
+        "$18$",
+        "$24$",
+        "$36$",
+        "$72$"
+      ],
+      "answer": 2,
+      "explanation": "Evaluate each part: $3^2=9$, $\\sqrt[3]{8}=2$, and $2^1=2$. Multiply: $9 \\times 2 \\times 2=36$."
+    },
+    {
+      "question": "A square patio has an area of $289$ square feet. What is the length of one side of the patio?",
+      "options": [
+        "$15$ ft",
+        "$16$ ft",
+        "$17$ ft",
+        "$18$ ft"
+      ],
+      "answer": 2,
+      "explanation": "The area of a square is $s^2$. Find the side length by taking the square root: $\\sqrt{289}=17$. The side length is $17$ feet."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "topic": "Greatest Common Factor",
+
+  "questions": [
+
+    {
+
+      "question": "What is the greatest common factor (GCF) of $24$ and $36$?",
+
+      "options": [
+
+        "$6$",
+
+        "$8$",
+
+        "$12$",
+
+        "$18$"
+
+      ],
+
+      "answer": 2,
+
+      "explanation": "The factors of $24$ include $1, 2, 3, 4, 6, 8, 12,$ and $24$. The factors of $36$ include $1, 2, 3, 4, 6, 9, 12, 18,$ and $36$. The greatest factor they have in common is $12$."
+
+    },
+
+    {
+
+      "question": "The fractions $\\frac{18}{24}$ and $\\frac{30}{42}$ each have a numerator and denominator. What is the greatest common factor of $18$ and $24$, which can be used to simplify the first fraction?",
+
+      "options": [
+
+        "$2$",
+
+        "$3$",
+
+        "$6$",
+
+        "$12$"
+
+      ],
+
+      "answer": 2,
+
+      "explanation": "The common factors of $18$ and $24$ are $1, 2, 3,$ and $6$. The greatest common factor is $6$. Dividing both the numerator and denominator of $\\frac{18}{24}$ by $6$ gives $\\frac{3}{4}$."
+
+    }, 
+    {
+  "question": "Two flashing signals at an airport runway blink at different regular intervals. Signal A blinks every 6 seconds, and Signal B blinks every 8 seconds. If both signals blink at the exact same time, how many seconds will pass before they blink at the same time again?",
+  "options": [
+    "2",
+    "14",
+    "24",
+    "48"
+  ],
+  "answer": 2,
+  "explanation": "The common multiples of $6$ and $8$ are $24, 48,$ and $72$. The least common multiple is $24$. Therefore, both signals will blink at the same time again after $24$ seconds."
+}
+
+
+  ]
+
+}

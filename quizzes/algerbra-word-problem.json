@@ -1,0 +1,60 @@
+{
+  "topic": "Evaluate Algebraic Expressions",
+  "questions": [
+    {
+      "question": "A moving company uses the expression $45h+25b$ to calculate the cost of a move, where $h$ is the number of hours worked and $b$ is the number of boxes moved. A customer has $6$ hours of work and $18$ boxes. How much will the move cost?",
+      "options": [
+        "$720$",
+        "$735$",
+        "$750$",
+        "$780$"
+      ],
+      "answer": 0,
+      "explanation": "Substitute $6$ for $h$ and $18$ for $b$: $45(6)+25(18)=270+450=720$. Therefore, the cost is $720$."
+    },
+    {
+      "question": "The formula $C=12+0.08m$ represents the total cost, $C$, of printing $m$ pages at a copy center. What does the number $0.08$ represent?",
+      "options": [
+        "The fixed cost for using the copy center",
+        "The number of pages printed",
+        "The cost of printing each page",
+        "The total cost of printing"
+      ],
+      "answer": 2,
+      "explanation": "In the expression $12+0.08m$, the coefficient $0.08$ is multiplied by the number of pages, $m$. Therefore, $0.08$ represents the cost of printing each page."
+    },
+    {
+      "question": "Evaluate the expression $4x^2-3x+7$ when $x=2$.",
+      "options": [
+        "$15$",
+        "$17$",
+        "$19$",
+        "$21$"
+      ],
+      "answer": 1,
+      "explanation": "Substitute $2$ for $x$: $4(2^2)-3(2)+7=4(4)-6+7=16-6+7=17$. Therefore, the value of the expression is $17$."
+    },
+    {
+      "question": "A gym charges a membership fee of $25 plus $8 for each class a member attends. The expression $25+8c$ represents the total cost, where $c$ is the number of classes attended. How much does a member pay after attending $7$ classes?",
+      "options": [
+        "$56$",
+        "$73$",
+        "$81$",
+        "$91$"
+      ],
+      "answer": 2,
+      "explanation": "Substitute $7$ for $c$: $25+8(7)=25+56=81$. Therefore, the member pays $81$."
+    },
+    {
+      "question": "The expression $3a+2b-5$ is used to calculate a value. What is the value of the expression when $a=4$ and $b=6$?",
+      "options": [
+        "$11$",
+        "$17$",
+        "$19$",
+        "$25$"
+      ],
+      "answer": 2,
+      "explanation": "Substitute $4$ for $a$ and $6$ for $b$: $3(4)+2(6)-5=12+12-5=19$. Therefore, the value is $19$."
+    }
+  ]
+}

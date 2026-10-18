@@ -1,0 +1,60 @@
+{
+  "topic": "Circles",
+  "questions": [
+    {
+      "question": "A circular flower bed has a radius of 7 feet. What is its area? (Use π ≈ 3.14.)",
+      "options": [
+        "43.96 square feet",
+        "87.92 square feet",
+        "153.86 square feet",
+        "307.72 square feet"
+      ],
+      "answer": 2,
+      "explanation": "Area = πr² = 3.14 × 7² = 3.14 × 49 = 153.86 square feet."
+    },
+    {
+      "question": "A bicycle wheel has a diameter of 28 inches. Approximately how far does the wheel travel in one complete revolution? (Use π ≈ 3.14.)",
+      "options": [
+        "43.96 inches",
+        "56.00 inches",
+        "87.92 inches",
+        "175.84 inches"
+      ],
+      "answer": 2,
+      "explanation": "One revolution covers the circumference: C = πd = 3.14 × 28 = 87.92 inches."
+    },
+    {
+      "question": "The circumference of a circular fountain is 62.8 meters. What is its radius? (Use π ≈ 3.14.)",
+      "options": [
+        "10 meters",
+        "15 meters",
+        "20 meters",
+        "31.4 meters"
+      ],
+      "answer": 0,
+      "explanation": "Use C = 2πr. So r = 62.8 ÷ (2 × 3.14) = 10 meters."
+    },
+    {
+      "question": "A circular table has an area of 314 square inches. Approximately what is the radius of the table? (Use π ≈ 3.14.)",
+      "options": [
+        "5 inches",
+        "8 inches",
+        "10 inches",
+        "12 inches"
+      ],
+      "answer": 2,
+      "explanation": "r² = 314 ÷ 3.14 = 100, so r = √100 = 10 inches."
+    },
+    {
+      "question": "A circular running track has a radius of 35 meters. About how far does a runner travel after running halfway around the track? (Use π ≈ 3.14.)",
+      "options": [
+        "54.95 meters",
+        "109.9 meters",
+        "219.8 meters",
+        "384.7 meters"
+      ],
+      "answer": 1,
+      "explanation": "Halfway around is half the circumference. C = 2πr = 2 × 3.14 × 35 = 219.8 meters. Half of that is 109.9 meters."
+    }
+  ]
+}

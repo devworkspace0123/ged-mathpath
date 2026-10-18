@@ -1,0 +1,137 @@
+{
+  "topic": "Mean, Median, Mode, and Range",
+  "questions": [
+    {
+      "question": "The manager of an apartment complex ordered the air conditioners in the apartments to be replaced. The list shows how many years each air conditioner had been in service: $12.2, 13.7, 11.9, 13.4, 11.9, 12.3, 12.9, 11.8, 13.3, 13.6$. What is the median number of years that an air conditioner had been in service?",
+      "options": [
+        "$12.1$",
+        "$12.3$",
+        "$12.6$",
+        "$12.9$"
+      ],
+      "answer": 2,
+      "explanation": "First, arrange the numbers from least to greatest: $11.8, 11.9, 11.9, 12.2, 12.3, 12.9, 13.3, 13.4, 13.6, 13.7$. Since there are 10 values, the median is the average of the two middle values: $\\frac{12.3+12.9}{2}=12.6$."
+    },
+    {
+      "question": "A student scored $78$, $84$, $91$, and $87$ on four tests. The mean score for all five tests was $85$. What could have been the student's score on the fifth test?",
+      "options": [
+        "$80$",
+        "$82$",
+        "$85$",
+        "$90$"
+      ],
+      "answer": 2,
+      "explanation": "The total score needed for a mean of $85$ across 5 tests is $85 \\times 5=425$. The four known scores total $78+84+91+87=340$. Therefore, the fifth score could have been $425-340=85$."
+    },
+    {
+      "question": "What is the mean of the following data set? $22, 27, 31, 35, 40$",
+      "options": [
+        "$29$",
+        "$30$",
+        "$31$",
+        "$32$"
+      ],
+      "answer": 2,
+      "explanation": "Add all the values: $22+27+31+35+40=155$. Then divide by the number of values: $\\frac{155}{5}=31$. Therefore, the mean is $31$."
+    },
+    {
+      "question": "The number of books read by students in one month was $3, 7, 5, 7, 2, 9, 7,$ and $4$. What is the mode?",
+      "options": [
+        "$3$",
+        "$5$",
+        "$7$",
+        "$9$"
+      ],
+      "answer": 2,
+      "explanation": "The mode is the value that appears most often. The number $7$ appears three times, while the other values appear only once."
+    },
+    {
+      "question": "The temperatures recorded during five days were $68^\\circ$F, $72^\\circ$F, $75^\\circ$F, $70^\\circ$F, and $80^\\circ$F. What is the range of the temperatures?",
+      "options": [
+        "$8^\\circ$F",
+        "$10^\\circ$F",
+        "$12^\\circ$F",
+        "$15^\\circ$F"
+      ],
+      "answer": 2,
+      "explanation": "The range is the maximum value minus the minimum value: $80-68=12$. Therefore, the range is $12^\\circ$F."
+    },
+    {
+      "question": "The mean of five numbers is $24$. Four of the numbers are $18$, $21$, $27$, and $30$. What could be the fifth number?",
+      "options": [
+        "$20$",
+        "$22$",
+        "$24$",
+        "$26$"
+      ],
+      "answer": 2,
+      "explanation": "The total needed for a mean of $24$ across 5 numbers is $24 \\times 5=120$. The four known numbers total $18+21+27+30=96$. Therefore, the fifth number is $120-96=24$."
+    },
+    {
+      "question": "What is the median of the following data set? $4, 8, 8, 10, 12, 15,$ and $20$",
+      "options": [
+        "$8$",
+        "$10$",
+        "$12$",
+        "$15$"
+      ],
+      "answer": 1,
+      "explanation": "There are 7 values, so the median is the fourth value when the numbers are arranged from least to greatest. The fourth value is $10$."
+    },
+    {
+      "question": "A data set has a minimum value of $14$ and a range of $23$. What is the maximum value?",
+      "options": [
+        "$27$",
+        "$32$",
+        "$37$",
+        "$41$"
+      ],
+      "answer": 2,
+      "explanation": "Use the formula $\\text{Range}=\\text{Maximum}-\\text{Minimum}$. Therefore, $23=\\text{Maximum}-14$. Adding $14$ to both sides gives a maximum value of $37$."
+    },
+    {
+      "question": "The median of the five numbers $12$, $15$, $x$, $21$, and $25$ is $18$. What is the value of $x$?",
+      "options": [
+        "$16$",
+        "$18$",
+        "$19$",
+        "$20$"
+      ],
+      "answer": 1,
+      "explanation": "With five numbers arranged from least to greatest, the median is the third number. Therefore, $x$ must be $18$."
+    },
+    {
+      "question": "The mean of four numbers is $16$. Three of the numbers are $11$, $15$, and $20$. What could be the fourth number?",
+      "options": [
+        "$16$",
+        "$17$",
+        "$18$",
+        "$19$"
+      ],
+      "answer": 2,
+      "explanation": "The total needed for a mean of $16$ across 4 numbers is $16 \\times 4=64$. The three known numbers total $11+15+20=46$. Therefore, the fourth number is $64-46=18$."
+    },
+    {
+      "question": "The number of customers served by a store during five hours was $18, 22, 25, 22,$ and $28$. What is the mode?",
+      "options": [
+        "$18$",
+        "$22$",
+        "$25$",
+        "$28$"
+      ],
+      "answer": 1,
+      "explanation": "The mode is the value that occurs most frequently. The number $22$ appears twice, while all other values appear only once."
+    },
+    {
+      "question": "The following data set represents the number of hours students studied for a test: $2, 4, 5, 7, 8,$ and $10$. What is the median?",
+      "options": [
+        "$5$",
+        "$5.5$",
+        "$6$",
+        "$6.5$"
+      ],
+      "answer": 2,
+      "explanation": "There are 6 values, so the median is the average of the two middle values, $5$ and $7$: $\\frac{5+7}{2}=6$."
+    }
+  ]
+}

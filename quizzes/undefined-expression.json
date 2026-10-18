@@ -1,0 +1,60 @@
+{
+  "topic": "Undefined Expressions",
+  "questions": [
+    {
+      "question": "Which expression is undefined in the set of real numbers?",
+      "options": [
+        "$18 \\div 3$",
+        "$0 \\div 9$",
+        "$14 \\div 0$",
+        "$\\sqrt{49}$"
+      ],
+      "answer": 2,
+      "explanation": "Division by zero is undefined. The denominator cannot be zero, so $14 \\div 0$ has no value."
+    },
+    {
+      "question": "For which value of $x$ is the expression $\\frac{5x+2}{x-6}$ undefined?",
+      "options": [
+        "$x=5$",
+        "$x=6$",
+        "$x=-6$",
+        "$x=2$"
+      ],
+      "answer": 1,
+      "explanation": "An expression with a fraction is undefined when the denominator equals zero. Set $x-6=0$. Solving gives $x=6$."
+    },
+    {
+      "question": "For which value of $y$ is the expression $\\frac{3y-7}{2y+8}$ undefined?",
+      "options": [
+        "$y=-4$",
+        "$y=4$",
+        "$y=-8$",
+        "$y=8$"
+      ],
+      "answer": 0,
+      "explanation": "Set the denominator equal to zero: $2y+8=0$. Subtract $8$: $2y=-8$. Divide by $2$: $y=-4$. The expression is undefined at $y=-4$."
+    },
+    {
+      "question": "Which expression has a value of $0$?",
+      "options": [
+        "$0 \\div 12$",
+        "$12 \\div 0$",
+        "$0 \\div 0$",
+        "$\\sqrt{0} \\div 0$"
+      ],
+      "answer": 0,
+      "explanation": "A zero numerator is allowed as long as the denominator is not zero. Since $0 \\div 12=0$, this expression has a value of zero."
+    },
+    {
+      "question": "A formula for the speed of a moving object is given by $\\text{Speed}=\\frac{\\text{Distance}}{\\text{Time}}$. Under which condition would the formula be undefined?",
+      "options": [
+        "The distance is $0$ miles.",
+        "The time is $0$ hours.",
+        "The distance equals the time.",
+        "The distance is greater than the time."
+      ],
+      "answer": 1,
+      "explanation": "Speed is calculated by dividing distance by time. If time equals zero, the denominator is zero, making the expression undefined."
+    }
+  ]
+}

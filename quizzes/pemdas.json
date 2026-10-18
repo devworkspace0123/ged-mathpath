@@ -1,0 +1,60 @@
+{
+  "topic": "Order of Operations and Expressions",
+  "questions": [
+    {
+      "question": "John opened a new bank account and deposited a $215 check. Then he made withdrawals of $40, $20, and $75 before depositing another check for $185. How much money is now in John's bank account?",
+      "options": [
+        "$245",
+        "$265",
+        "$285",
+        "$305"
+      ],
+      "answer": 1,
+      "explanation": "Add the deposits: $215 + $185 = $400$. Add the withdrawals: $40 + $20 + $75 = $135$. Subtract: $400 - $135 = $265$. John's account balance is $265."
+    },
+    {
+      "question": "Evaluate the expression: $\\left(\\frac{3}{4} \\times \\frac{8}{9}\\right) \\div \\frac{2}{3}$",
+      "options": [
+        "$1$",
+        "$\\frac{3}{2}$",
+        "$2$",
+        "$\\frac{8}{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Multiply first: $\\frac{3}{4} \\times \\frac{8}{9}=\\frac{24}{36}=\\frac{2}{3}$. Then divide by $\\frac{2}{3}$: $\\frac{2}{3} \\div \\frac{2}{3}=1$."
+    },
+    {
+      "question": "Evaluate the expression: $12 + 15 \\div 3 \\times 6 - 4$",
+      "options": [
+        "$34$",
+        "$38$",
+        "$40$",
+        "$42$"
+      ],
+      "answer": 1,
+      "explanation": "Use order of operations. Division and multiplication go from left to right: $15 \\div 3 = 5$, then $5 \\times 6 = 30$. Now solve: $12 + 30 - 4 = 38$."
+    },
+    {
+      "question": "Evaluate the expression: $(18 - 6) \\div 3 + 4^2$",
+      "options": [
+        "$18$",
+        "$20$",
+        "$22$",
+        "$24$"
+      ],
+      "answer": 1,
+      "explanation": "First solve parentheses: $18 - 6 = 12$. Then divide: $12 \\div 3 = 4$. Evaluate the exponent: $4^2 = 16$. Finally add: $4 + 16 = 20$."
+    },
+    {
+      "question": "Emma buys 3 notebooks that cost $4 each and 2 pens that cost $3 each. She uses a $5 coupon before paying. Which expression correctly represents the total amount Emma pays?",
+      "options": [
+        "$(3 \\times 4) + (2 \\times 3) - 5$",
+        "$3 \\times (4 + 2) \\times (3 - 5)$",
+        "$3 + 4 \\times 2 + 3 - 5$",
+        "$(3 + 4 + 2 + 3) - 5$"
+      ],
+      "answer": 0,
+      "explanation": "Find each item's total cost: $3 \\times 4 = 12$ for notebooks and $2 \\times 3 = 6$ for pens. Add them: $12 + 6 = 18$. Subtract the coupon: $18 - 5 = 13$. The correct expression is $(3 \\times 4) + (2 \\times 3) - 5$."
+    }
+  ]
+}

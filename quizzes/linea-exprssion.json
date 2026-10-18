@@ -1,0 +1,60 @@
+{
+  "topic": "Linear Expressions",
+  "questions": [
+    {
+      "question": "Expand: $4(7x-2)$",
+      "options": [
+        "$28x-8$",
+        "$28x-2$",
+        "$11x-8$",
+        "$11x-2$"
+      ],
+      "answer": 0,
+      "explanation": "Use the distributive property: $4(7x)-4(2)=28x-8$."
+    },
+    {
+      "question": "Factor: $4x+8$",
+      "options": [
+        "$4(x+2)$",
+        "$4(x+8)$",
+        "$2(2x+8)$",
+        "$8(x+4)$"
+      ],
+      "answer": 0,
+      "explanation": "The greatest common factor of $4x$ and $8$ is $4$. Factoring out $4$ gives $4(x+2)$."
+    },
+    {
+      "question": "Subtract: $(3x-4y)-(4x-3y)$",
+      "options": [
+        "$-x-y$",
+        "$7xy$",
+        "$-x-7y$",
+        "$7x-7y$"
+      ],
+      "answer": 0,
+      "explanation": "Distribute the negative sign: $3x-4y-4x+3y$. Then combine like terms: $3x-4x=-x$ and $-4y+3y=-y$. The result is $-x-y$."
+    },
+    {
+      "question": "Simplify: $(5x+3)+(2x-7)$",
+      "options": [
+        "$7x-4$",
+        "$7x+10$",
+        "$3x-4$",
+        "$3x+10$"
+      ],
+      "answer": 0,
+      "explanation": "Combine like terms: $5x+2x=7x$ and $3-7=-4$. Therefore, the expression simplifies to $7x-4$."
+    },
+    {
+      "question": "Expand: $-2(4x-3)$",
+      "options": [
+        "$-8x+6$",
+        "$-8x-6$",
+        "$8x+6$",
+        "$8x-6$"
+      ],
+      "answer": 0,
+      "explanation": "Multiply $-2$ by each term: $(-2)(4x)=-8x$ and $(-2)(-3)=6$. Therefore, the result is $-8x+6$."
+    }
+  ]
+}
