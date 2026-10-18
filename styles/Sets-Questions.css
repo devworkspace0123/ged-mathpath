@@ -1,0 +1,591 @@
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #006daa;
+    --blue-light: #80aee1;
+    --blue-hover: #00558a;
+    --background: #f8f9fa;
+    --text: #202938;
+    --muted: #64748b;
+    --border: #dce3eb;
+    --white: #ffffff;
+}
+
+html {
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 20px 16px;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header,
+.subheader,
+.main-body,
+.footer {
+    width: 100%;
+    max-width: 1023px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    min-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.questionNumber {
+    flex-shrink: 0;
+    margin: 0;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* =========================
+   SUBHEADER
+========================= */
+
+.subheader {
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 14px;
+    margin-bottom: 0;
+    background: var(--blue-light);
+    color: var(--white);
+}
+
+#calculator {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* =========================
+   FLAG FOR REVIEW
+========================= */
+
+.flag-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.flag-checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.flag-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 9px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.flag-label:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.flag-checkbox:focus-visible + .flag-label {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    transition: fill 0.2s ease;
+}
+
+.flag-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.flag-checkbox:checked + .flag-label {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.flag-checkbox:checked + .flag-label .flag-icon {
+    fill: white;
+}
+
+/* =========================
+   MAIN QUESTION AREA
+========================= */
+
+.main-body {
+    position: relative;
+    min-height: 500px;
+    padding: 20px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 43px;
+    margin-bottom: 24px;
+}
+
+.items button {
+    min-height: 42px;
+    max-width: 100%;
+    padding: 9px 15px;
+    background: #3f79ba;
+    border: 1px solid var(--blue);
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.items button:hover {
+    background: var(--blue-hover);
+}
+
+.items button:focus-visible,
+.footer button:focus-visible {
+    outline: 3px solid #80aee1;
+    outline-offset: 3px;
+}
+
+/* =========================
+   FORMULA SHEET
+========================= */
+
+.formulaSheet {
+    position: absolute;
+    z-index: 20;
+    top: 48px;
+    left: 0;
+    width: min(450px, 100%);
+    max-width: calc(100vw - 48px);
+    max-height: 65vh;
+    padding: 48px 10px 10px;
+    overflow: auto;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.formulaSheet[hidden] {
+    display: none;
+}
+
+.formulaSheet img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.formulaSheet button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 38px;
+    min-height: 34px;
+    padding: 5px;
+    background: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* =========================
+   QUIZ CONTENT
+========================= */
+
+.quiz-System {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.description,
+.image,
+.question,
+.options {
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 22px;
+    overflow-wrap: anywhere;
+}
+
+.description p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.question p {
+    margin: 0;
+    color: var(--text);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+/* Question images and tables */
+
+.image img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    max-height: 350px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+/* =========================
+   ANSWER OPTIONS
+========================= */
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.question-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-width: 0;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    transition: background-color 0.2s ease,
+                border-color 0.2s ease;
+}
+
+
+
+.question-label input[type="radio"] {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: var(--blue);
+    cursor: pointer;
+}
+
+.question-label img,
+.option-image {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    max-width: min(250px, 100%);
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.question-label:focus-within {
+    outline: 2px solid var(--blue-light);
+    outline-offset: 2px;
+}
+
+/* =========================
+   FOOTER NAVIGATION
+========================= */
+
+.footer {
+    min-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 14px;
+    background: var(--blue);
+    border-radius: 0 0 10px 10px;
+}
+
+.footer button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    min-height: 36px;
+    padding: 8px 14px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.footer button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footer button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 768px) {
+    body {
+        padding: 12px;
+    }
+
+    .header {
+        padding: 12px;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .main-body {
+        min-height: 450px;
+        padding: 16px;
+    }
+
+    .quiz-System {
+        max-width: 100%;
+    }
+
+    .question p {
+        font-size: 18px;
+    }
+
+    .question-label {
+        padding: 12px;
+    }
+}
+
+/* =========================
+   MOBILE PHONES
+========================= */
+
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+    .header {
+        align-items: flex-start;
+        gap: 8px;
+        padding: 12px 10px;
+    }
+
+    .header h1 {
+        font-size: 16px;
+    }
+
+    .questionNumber {
+        max-width: 110px;
+        font-size: 12px;
+        text-align: right;
+    }
+
+    .subheader {
+        align-items: center;
+        gap: 6px;
+        padding: 5px 8px;
+    }
+
+    #calculator {
+        gap: 5px;
+        margin-left: 0;
+        font-size: 13px;
+    }
+
+    .flag-label {
+        gap: 5px;
+        padding: 6px 4px;
+    }
+
+    .flag-text {
+        font-size: 12px;
+    }
+
+    .flag-icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .main-body {
+        min-height: 400px;
+        padding: 12px;
+    }
+
+    .items {
+        justify-content: flex-start;
+        gap: 8px;
+        margin-bottom: 20px;
+    }
+
+    .items button {
+        flex: 1 1 130px;
+        width: auto;
+        margin: 0;
+        padding: 9px 8px;
+        font-size: 13px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .question p {
+        font-size: 17px;
+    }
+
+    .question-label {
+        gap: 9px;
+        padding: 11px;
+        font-size: 14px;
+    }
+
+    .question-label img,
+    .option-image {
+        max-width: 100%;
+        max-height: 180px;
+    }
+
+    .image img {
+        max-height: 250px;
+    }
+
+    .footer {
+        padding: 8px;
+    }
+
+    .footer button {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .formulaSheet {
+        max-width: calc(100vw - 40px);
+    }
+}
+
+/* =========================
+   VERY SMALL PHONES
+========================= */
+
+@media (max-width: 340px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .questionNumber {
+        max-width: none;
+        text-align: left;
+    }
+
+    .flag-text {
+        font-size: 11px;
+    }
+
+    .items button {
+        flex-basis: 100%;
+    }
+
+    .footer button {
+        gap: 5px;
+        padding: 8px;
+        font-size: 13px;
+    }
+}
+
+/* =========================
+   ACCESSIBILITY
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+    }
+}

@@ -1,0 +1,276 @@
+{
+  "questions": [
+    {
+      "question": "What is the value of \\(\\frac{4}{7} \\times \\frac{7}{3} \\div \\frac{8}{5}\\)?",
+      "options": [
+        "\\(\\frac{5}{6}\\)",
+        "\\(\\frac{32}{15}\\)",
+        "\\(\\frac{15}{32}\\)",
+        "\\(\\frac{6}{5}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Between which pair of decimals should \\(\\frac{5}{8}\\) be placed on a number line?",
+      "options": [
+        "0.4 and 0.5",
+        "0.5 and 0.6",
+        "0.6 and 0.7",
+        "0.7 and 0.8"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which number makes the equation true? \\((\\sqrt{\\Box})^2=\\sqrt{144}\\)",
+      "options": [
+        "6",
+        "12",
+        "24",
+        "144"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A factory operates two automated assembly machines. Machine A undergoes a routine inspection every 6 hours, while Machine B undergoes an inspection every 15 hours. If both machines are inspected at the same time today, what is the least number of hours that will pass before both machines are inspected at the same time again?",
+      "options": [
+        "30",
+        "60",
+        "90",
+        "3"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which expression is undefined over the real numbers?",
+      "options": [
+        "\\(7^0\\)",
+        "\\(\\frac{0}{5}\\)",
+        "\\(|-12|\\)",
+        "\\(\\sqrt{-5}\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "A recipe for 3 dozen oatmeal cookies requires \\(1\\frac{1}{2}\\) cups of sugar. If David wants to make 126 oatmeal cookies, how much sugar does he need?",
+      "options": [
+        "\\(4\\frac{1}{2}\\) cups",
+        "\\(5\\frac{1}{4}\\) cups",
+        "\\(5\\frac{1}{2}\\) cups",
+        "\\(6\\frac{1}{8}\\) cups"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A classroom storage bin contains 24 identical markers. Six of the markers are black. If a student selects one marker at random, what is the probability that the marker is black?",
+      "options": [
+        "\\(\\frac{1}{18}\\)",
+        "\\(\\frac{1}{6}\\)",
+        "\\(\\frac{1}{4}\\)",
+        "\\(\\frac{1}{3}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "description": "Clara is comparing the costs of movie rentals from three different websites. Movie Magic prices are shown in the table, Film Central prices are shown in the graph, and Cinema Planet advertises a rate of \\$11.00 for 4 movie rentals.",
+      "image": "../images/song-price.jpg",
+      "question": "Arrange the websites from the least expensive price per rental to the most expensive price per rental.",
+      "options": [
+        "Movie Magic, Film Central, Cinema Planet",
+        "Movie Magic, Cinema Planet, Film Central",
+        "Cinema Planet, Movie Magic, Film Central",
+        "Film Central, Cinema Planet, Movie Magic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A graph is shown in the diagram. Which equation represents the graphed line?",
+      "image": "../images/slope-graph-3.jpg",
+      "options": [
+        "\\(y=-2x+1\\)",
+        "\\(y=2x+1\\)",
+        "\\(y=-\\frac{1}{2}x+1\\)",
+        "\\(y=-2x-1\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following tables represents a function?",
+      "isTable": true,
+      "image": "../images/table-function.jpg",
+      "options": [
+        "Table A",
+        "Table B",
+        "Table C",
+        "Table D"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Subtract: \\((5x-2y)-(2x-6y)\\).",
+      "options": [
+        "\\(3x-8y\\)",
+        "\\(3x+4y\\)",
+        "\\(7x-8y\\)",
+        "\\(7x+4y\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Sarah runs a local bakery specializing in custom cakes and pastries. It takes her 3 hours to decorate each custom cake and 1.5 hours to prepare each batch of specialty pastries. She has 120 hours available for baking. If she completes 14 custom cakes first and uses the remaining time to make pastry batches, how many full batches of pastries can she prepare?",
+      "options": [
+        "40",
+        "48",
+        "52",
+        "60"
+      ],
+      "answer": 2
+    },
+    {
+      "description": "An ice cream treat consists of a waffle cone topped with a hemispherical scoop of ice cream. The radius of the hemisphere and cone base is 3 centimeters, and the slant height of the waffle cone is 10 centimeters.",
+      "image": "../images/ice-cream-cone.jpg",
+      "question": "What is the total outer surface area, in square centimeters, of the composite shape? Leave your answer in terms of \\(\\pi\\).",
+      "options": [
+        "\\(39\\pi\\)",
+        "\\(48\\pi\\)",
+        "\\(57\\pi\\)",
+        "\\(66\\pi\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "During a winter weather event, the initial thickness of snow on a driveway was 12 inches. Due to a sudden temperature rise, the snow melts steadily at a rate of 1.5 inches per hour. Which expression represents the thickness of the snow layer, in inches, after \\(t\\) hours?",
+      "options": [
+        "\\(12+1.5t\\)",
+        "\\(1.5t-12\\)",
+        "\\(12-1.5t\\)",
+        "\\(1.5+12t\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Solve the inequality for \\(x\\): \\(\\frac{1}{6}x \\leq \\frac{1}{2}x+8\\).",
+      "options": [
+        "\\(x\\geq-24\\)",
+        "\\(x\\geq-12\\)",
+        "\\(x\\leq-12\\)",
+        "\\(x\\leq-24\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A spinner has 8 equal sections: 3 are red, 4 are blue, and 1 is yellow. If the spinner is spun twice, what is the probability of landing on red both times?",
+      "options": [
+        "\\(\\frac{3}{32}\\)",
+        "\\(\\frac{9}{64}\\)",
+        "\\(\\frac{3}{8}\\)",
+        "\\(\\frac{6}{8}\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A catering company uses the expression \\(65h+15g\\) to calculate the total cost, in dollars, of hosting an event, where \\(h\\) is the number of hours worked and \\(g\\) is the number of guests. A customer books a 5-hour event with 40 guests. How much will the event cost?",
+      "options": [
+        "\\$825",
+        "\\$925",
+        "\\$950",
+        "\\$1,100"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Solve: \\(3x^2-2x-5=0\\).",
+      "options": [
+        "\\(x=-1\\) and \\(x=\\frac{5}{3}\\)",
+        "\\(x=\\frac{3}{5}\\) and \\(x=1\\)",
+        "\\(x=-1\\) and \\(x=\\frac{3}{5}\\)",
+        "\\(x=1\\) and \\(x=\\frac{5}{3}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Evaluate \\(\\frac{x^3-22x^2}{-3x-5}\\) when \\(x=8\\). Round your answer to the nearest tenth.",
+      "options": [
+        "14.2",
+        "30.9",
+        "25.4",
+        "41.5"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the equation, in standard form, of the line that passes through the points \\((-2,-3)\\) and \\((4,-7)\\)?",
+      "options": [
+        "\\(2x+3y=-13\\)",
+        "\\(2x-3y=5\\)",
+        "\\(3x+2y=-12\\)",
+        "\\(3x-2y=0\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "An architect designs a courtyard layout with a total outer perimeter of 60 meters. The polygonal structure is symmetric and has right angles at its two base corners, as shown in the diagram. What is the length of the unknown side \\(x\\), in meters?",
+      "image": "../images/court-yard.jpg",
+      "options": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Two students work part-time delivery jobs. The table shows Alex's total earnings, and the graph shows Taylor's total earnings over a period of hours worked. Which employee earns more per hour, and how much does that employee earn for an 8-hour shift?",
+      "isTable": true,
+      "image": "../images/earning.jpg",
+      "options": [
+        "Alex earns more per hour; he earns \\$100.00 for an 8-hour shift.",
+        "Taylor earns more per hour; she earns \\$96.00 for an 8-hour shift.",
+        "Alex earns more per hour; he earns \\$96.00 for an 8-hour shift.",
+        "Taylor earns more per hour; she earns \\$100.00 for an 8-hour shift."
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the slope of the line represented by the equation \\(5x-2y=10\\)?",
+      "options": [
+        "\\(-\\frac{5}{2}\\)",
+        "\\(-\\frac{2}{5}\\)",
+        "\\(\\frac{2}{5}\\)",
+        "\\(\\frac{5}{2}\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "What is the value of \\(f(x)=2x^2-5\\) when \\(x=-4\\)?",
+      "options": [
+        "-37",
+        "-21",
+        "27",
+        "59"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A large container of fruit juice holds 64 fluid ounces. The amount of juice in the container is more than 4 times the amount needed to mix a single pitcher of punch. Which inequality can be used to determine the possible values for \\(j\\), the number of fluid ounces needed for one pitcher?",
+      "options": [
+        "\\(4j>64\\)",
+        "\\(j>4(64)\\)",
+        "\\(4j<64\\)",
+        "\\(j<4(64)\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Four different relations are presented as coordinate graphs and data mapping tables. Which relation represents a mathematical function?",
+      "isTable": true,
+      "image": "../images/function-diagrams.jpg",
+      "options": [
+        "Relation A",
+        "Relation B",
+        "Relation C",
+        "Relation D"
+      ],
+      "answer": 2
+    }
+  ]
+}

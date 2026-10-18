@@ -1,0 +1,267 @@
+{
+  "questions": [
+    {
+      "question": "What is the value of \\((-3)^4\\)?",
+      "options": [
+        "81",
+        "-81",
+        "12",
+        "-12"
+      ],
+      "answer": 0
+    },
+    {
+  "question": "A car travels 45 miles on 1.5 gallons of gasoline. At this rate, how many miles can the car travel on 4 gallons?",
+  "options": [
+    "90 miles",
+    "100 miles",
+    "120 miles",
+    "135 miles"
+  ],
+  "answer": 2
+},
+{
+  "question": "A recipe calls for 3 cups of flour to make 12 muffins. At the same rate, how many cups of flour are needed to make 20 muffins?",
+  "options": [
+    "4 cups",
+    "5 cups",
+    "6 cups",
+    "8 cups"
+  ],
+  "answer": 1
+},
+    {
+      "question": "Simplify: \\(\\sqrt[3]{54}\\)",
+      "options": [
+        "\\(3\\sqrt[3]{2}\\)",
+        "\\(2\\sqrt[3]{3}\\)",
+        "18",
+        "\\(27\\sqrt[3]{2}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of \\(0.4 - (0.8)(1.2)\\)?",
+      "options": [
+        "-0.56",
+        "-0.48",
+        "0.56",
+        "-0.92"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A tech company generated \\$164.5 million in revenue this year, while a competitor generated \\$138.2 million. How much more revenue did the first company generate than its competitor?",
+      "options": [
+        "\\$26.3 million",
+        "\\$26.3",
+        "\\$302.7 million",
+        "\\$263,000"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which table represents a function?",
+      "options": [
+        "../images/function-1.jpg",
+        "../images/function-2.jpg",
+        "../images/function-3.jpg",
+        "../images/function-4.jpg"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The equation \\(C = 15n + 5\\) represents the cost, \\(C\\), in dollars, of renting \\(n\\) movies from a streaming service. Sarah's total bill was \\$50, and Mark's total bill was \\$95. How many more movies did Mark rent than Sarah?",
+      "options": [
+        "3",
+        "6",
+        "2",
+        "4"
+      ],
+      "answer": 0
+    },
+    {
+      "description": "A poultry farm tracks its annual egg production. This year, the farm started with a flock of 850 hens. The provided graphs detail data collected from a sample group of the top 10 most productive egg-laying hens over a month. If 34 hens from the entire flock were moved to a different facility before the counting period began.",
+      "image": "../images/farm.jpg",
+      "question": "What is the probability that a randomly chosen hen from the initial flock remained at the farm?",
+      "options": [
+        "\\(\\frac{816}{850}\\)",
+        "\\(\\frac{34}{850}\\)",
+        "\\(\\frac{816}{816}\\)",
+        "\\(\\frac{10}{850}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A modern museum feature is built in the shape of a square pyramid. The base of the pyramid measures 30 meters on each side, and the height of the pyramid is 20 meters. What is the volume, in cubic meters, of the pyramid?",
+      "options": [
+        "6,000",
+        "18,000",
+        "200",
+        "600"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of \\(x^3 - 3y + 5\\) if \\(x = -4\\) and \\(y = -3\\)?",
+      "options": [
+        "-50",
+        "-74",
+        "-44",
+        "-64"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A factory manufactures globe ornaments in the shape of a sphere. The diameter of each globe is 6 inches. What is the surface area, in square inches, of each ornament? (Use 3.14 for \\(\\pi\\))",
+      "options": [
+        "113.04",
+        "452.16",
+        "37.68",
+        "28.26"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Elena has two savings accounts. Each month, she withdraws a certain amount of money from the first account and deposits a different amount into the second account. The inequality \\(6,000 - 150x \\geq 4,000 + 250x\\) can be solved to find the number of months, \\(x\\), for which the first account has more money than or equal to the second account. What is the solution to this inequality?",
+      "options": [
+        "\\(x \\geq 5\\)",
+        "\\(x \\geq 20\\)",
+        "\\(x \\leq 5\\)",
+        "\\(x \\leq 20\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which graph represents the equation \\(2x - 3y = 6\\)?",
+      "options": [
+        "../images/slope-Graph A.jpg",
+        "../images/slope-Graph B.jpg",
+        "../images/slope-Graph C.jpg",
+        "../images/slope-Graph D.jpg"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Factor the expression completely: \\(-4x - 32\\)",
+      "options": [
+        "\\(-4(x - 8)\\)",
+        "\\(-4(x + 8)\\)",
+        "\\(-4(x + 32)\\)",
+        "\\(-4(x - 32)\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the equation, in standard form, of the line that passes through the points \\((-2, -3)\\) and \\((2, -9)\\)?",
+      "options": [
+        "\\(3x + 2y = -12\\)",
+        "\\(2x + 3y = -12\\)",
+        "\\(3x + 2y = 12\\)",
+        "\\(2x - 3y = -12\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Solve the inequality for \\(x\\):\n\n$$\\frac{1}{6}x \\leq \\frac{1}{2}x + 8$$",
+      "options": [
+        "\\(x \\leq -12\\)",
+        "\\(x \\geq -24\\)",
+        "\\(x \\geq -12\\)",
+        "\\(x \\leq -24\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "On Monday, Marcus buys \\(d\\) DVDs at \\$12 each and \\(b\\) books at \\$15 each. On Friday, Marcus returns 3 books. Which expression represents the total value of his purchases?",
+      "options": [
+        "\\(12d + 15b - 3\\)",
+        "\\(12(d - 3) + 15b\\)",
+        "\\(12d + 15(b - 3)\\)",
+        "\\(12d + 12b\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The price of Javier's meal before tax and tip was \\$14.50. Javier paid 6% tax, then added an 18% tip to the total. To the nearest cent, how much did Javier pay for his meal?",
+      "options": [
+        "\\$15.37",
+        "\\$17.98",
+        "\\$18.14",
+        "\\$19.25"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The Miller family's back yard is a rectangular plot that has a length of 120 feet and a width of 90 feet. The family planted a garden with a length and width of 70 feet. The family planted a lawn in the remaining area of the back yard, as shown.",
+      "image": "../images/area.jpg",
+      "options": [
+        "4,900",
+        "5,900",
+        "6,100",
+        "10,800"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "An art studio allows students to choose any 2 paint colors from a set of 8 available primary and secondary colors to mix together. How many different combinations of 2 colors are possible?",
+      "options": [
+        "16",
+        "28",
+        "56",
+        "64"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A system of equations is shown.\n\n$$3x + 2y = 7$$\n$$3x - 2y = -1$$\n\nWhat is the value of \\(x\\)?",
+      "options": [
+        "-1",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Liam saved \\$10,000 and bought a professional workstation computer that cost \\$7,200. The required software licensing for the computer will cost \\$800 per year. How many full years will Liam be able to pay for the software licensing with his remaining savings?",
+      "options": [
+        "3",
+        "4",
+        "9",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the slope of the line represented by the equation \\(5x + 2y = 10\\)?",
+      "options": [
+        "\\(-\\frac{2}{5}\\)",
+        "\\(-\\frac{5}{2}\\)",
+        "\\(\\frac{5}{2}\\)",
+        "\\(\\frac{2}{5}\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A book club needs to select 2 books to read this month from a list of 7 recommended titles. How many different combinations of 2 books are possible?",
+      "options": [
+        "14",
+        "21",
+        "42",
+        "49"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A rectangular room has a length that is 3 feet longer than its width. If the area of the room is 70 square feet, what is the width of the room?",
+      "options": [
+        "5 ft",
+        "7 ft",
+        "10 ft",
+        "14 ft"
+      ],
+      "answer": 1
+    }
+  ]
+}

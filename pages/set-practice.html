@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+    <meta charset="UTF-8">
+    <title>hi</title>
+    <link rel="stylesheet" href="../styles/Sets-Questions.css">
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ],
+                displayMath: [
+                    ['$$', '$$'],
+                    ['\\[', '\\]']
+                ]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+
+
+    <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
+</head>
+<body>
+<header class="header">
+    <h1>Mathematical Reasoning</h1>
+    <p class="questionNumber"></p>
+</header>
+<div class="subheader">
+   <span  id="calculator">
+       <i class="fa-solid fa-calculator"></i>
+       Calculator
+   </span>
+
+    <div class="flag-container">
+        <input type="checkbox" id="flag-review" class="flag-checkbox">
+        <label for="flag-review" class="flag-label" title="Flag for review">
+            <svg xmlns="http://w3.org" viewBox="0 0 24 24" class="flag-icon">
+                <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6h-5.6z"/>
+            </svg>
+            <span class="flag-text">Flag for Review</span>
+        </label>
+    </div>
+
+</div>
+<div class="main-body">
+    <div class="items">
+            <button class="formula-sheet">
+                <i class="fa-solid fa-window-maximize exhibit-icon"></i>
+                Formula Sheet
+            </button>
+        <div class="formulaSheet" hidden></div>
+
+        <button>
+
+            Calculator Reference</button>
+
+
+    </div>
+    <div class="quiz-System">
+
+    <div class="description"></div>
+    <div class="image"></div>
+    <div class="question"></div>
+    <div class="options"></div>
+
+    </div>
+
+
+</div>
+<footer class="footer">
+    <button class="previousBtn">
+        <i class="fa-solid fa-arrow-left "></i>
+        Previous
+    </button>
+    <button class="nextBtn">
+        Next
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
+</footer>
+
+
+
+<script type="module" src="../scripts/Sets-Questions.js">
+</script>
+</body>
+
+</html>

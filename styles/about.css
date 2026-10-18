@@ -1,0 +1,613 @@
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #4040ef;
+    --primary-dark: #3030c9;
+    --primary-light: #eeeeff;
+    --background: #f5f7fb;
+    --surface: #ffffff;
+    --text: #202438;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --radius: 14px;
+    --shadow: 0 4px 18px rgba(31, 41, 55, 0.06);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+p {
+    color: var(--muted);
+}
+
+i {
+    flex-shrink: 0;
+}
+
+/* =========================
+   MAIN PAGE
+========================= */
+
+.ged-information {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.ged-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 36px;
+    margin-bottom: 28px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+.ged-header > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border-radius: 18px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 36px;
+}
+
+.ged-header > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.ged-header p:first-child {
+    margin-bottom: 8px;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.ged-header h1 {
+    margin-bottom: 12px;
+    font-size: clamp(26px, 3.5vw, 38px);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+.ged-header p:last-child {
+    max-width: 720px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+/* =========================
+   INFORMATION SECTIONS
+========================= */
+
+.information-section {
+    min-width: 0;
+    padding: 30px;
+    margin-bottom: 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.information-section > h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: clamp(20px, 2.5vw, 25px);
+    line-height: 1.35;
+}
+
+.information-section > h2 i {
+    color: var(--primary);
+}
+
+.information-section > p {
+    margin-bottom: 14px;
+}
+
+.information-section > p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================
+   REQUIREMENT CARDS
+========================= */
+
+.requirement-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.requirement-card {
+    min-width: 0;
+    padding: 22px;
+    background: #fafaff;
+    border: 1px solid #e6e6ff;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.requirement-card > i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 12px;
+    border-radius: 11px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.requirement-card h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.requirement-card p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+@media (hover: hover) {
+    .requirement-card:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow);
+    }
+}
+
+/* =========================
+   GED SUBJECT CARDS
+========================= */
+
+.subject-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    min-width: 0;
+    padding: 24px;
+    margin-top: 18px;
+    background: #fafaff;
+    border: 1px solid #e6e6ff;
+    border-radius: 12px;
+}
+
+.subject-card > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 13px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 25px;
+}
+
+.subject-card > div {
+    flex: 1;
+    min-width: 0;
+}
+
+.subject-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+.subject-card p {
+    margin-bottom: 12px;
+}
+
+.subject-card strong {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.subject-card ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px 24px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.subject-card li {
+    padding-left: 2px;
+    overflow-wrap: anywhere;
+}
+
+/* =========================
+   TEST TIME CARDS
+========================= */
+
+.time-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.time-card {
+    min-width: 0;
+    padding: 22px 16px;
+    text-align: center;
+    background: #fafaff;
+    border: 1px solid #e6e6ff;
+    border-radius: 12px;
+}
+
+.time-card > i {
+    margin-bottom: 12px;
+    color: var(--primary);
+    font-size: 27px;
+}
+
+.time-card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+}
+
+.time-card p {
+    margin-bottom: 0;
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* =========================
+   PURPOSE CARDS
+========================= */
+
+.purpose-card {
+    padding: 20px 22px;
+    margin-top: 14px;
+    border-left: 4px solid var(--primary);
+    border-radius: 0 10px 10px 0;
+    background: #f8f8ff;
+}
+
+.purpose-card h3 {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.purpose-card p {
+    margin-bottom: 0;
+}
+
+/* =========================
+   SCORE CARDS
+========================= */
+
+.score-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 22px;
+}
+
+.score-card {
+    min-width: 0;
+    padding: 24px 14px;
+    text-align: center;
+    background: var(--primary-light);
+    border: 1px solid #dadaff;
+    border-radius: 12px;
+}
+
+.score-card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.score-card p {
+    margin-bottom: 0;
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* =========================
+   HOW THE GED WORKS
+========================= */
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 24px;
+}
+
+.step {
+    min-width: 0;
+    padding: 22px 18px;
+    background: #fafaff;
+    border: 1px solid #e6e6ff;
+    border-radius: 12px;
+}
+
+.step span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.step h3 {
+    margin-bottom: 8px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.step p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* =========================
+   PREPARATION TIPS
+========================= */
+
+.tips-list {
+    display: grid;
+    gap: 14px;
+    padding-left: 24px;
+    margin-bottom: 0;
+}
+
+.tips-list li {
+    padding-left: 5px;
+    overflow-wrap: anywhere;
+}
+
+.tips-list li::marker {
+    color: var(--primary);
+}
+
+/* =========================
+   MOTIVATION SECTION
+========================= */
+
+.ged-motivation {
+    padding: 38px 28px;
+    margin-bottom: 24px;
+    text-align: center;
+    background: var(--primary);
+    border-radius: 16px;
+    color: white;
+}
+
+.ged-motivation h2 {
+    margin-bottom: 10px;
+    font-size: clamp(26px, 3vw, 34px);
+}
+
+.ged-motivation p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #eeeeff;
+    font-size: 16px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+    body {
+        padding: 18px;
+    }
+
+    .ged-header {
+        padding: 28px;
+    }
+
+    .information-section {
+        padding: 24px;
+    }
+
+    .time-cards,
+    .score-cards,
+    .steps {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .requirement-list {
+        gap: 14px;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .ged-header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 22px;
+        border-radius: 14px;
+    }
+
+    .ged-header > i {
+        width: 58px;
+        height: 58px;
+        font-size: 28px;
+        border-radius: 14px;
+    }
+
+    .ged-header h1 {
+        font-size: 27px;
+    }
+
+    .ged-header p:last-child {
+        font-size: 15px;
+    }
+
+    .information-section {
+        padding: 20px 16px;
+        margin-bottom: 16px;
+    }
+
+    .information-section > h2 {
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 21px;
+    }
+
+    .requirement-list,
+    .time-cards,
+    .score-cards,
+    .steps {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .requirement-card {
+        padding: 19px;
+    }
+
+    .subject-card {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px 16px;
+    }
+
+    .subject-card h3 {
+        font-size: 19px;
+    }
+
+    .subject-card ul {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 7px;
+    }
+
+    .time-card,
+    .score-card {
+        padding: 20px;
+    }
+
+    .step {
+        padding: 20px;
+    }
+
+    .purpose-card {
+        padding: 17px;
+    }
+
+    .tips-list {
+        padding-left: 21px;
+    }
+
+    .ged-motivation {
+        padding: 30px 18px;
+    }
+
+    .ged-motivation p {
+        font-size: 15px;
+    }
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 360px) {
+    body {
+        padding: 8px;
+    }
+
+    .ged-header {
+        padding: 18px;
+    }
+
+    .ged-header h1 {
+        font-size: 24px;
+    }
+
+    .information-section {
+        padding: 17px 13px;
+    }
+
+    .information-section > h2 {
+        font-size: 19px;
+    }
+
+    .subject-card {
+        padding: 16px 12px;
+    }
+}
+
+/* =========================
+   REDUCED MOTION
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

@@ -1,0 +1,274 @@
+{
+  "questions": [
+    {
+      "question": "On a number line, how many units apart are the numbers $-18$ and $27$?",
+      "options": [
+        "$9$",
+        "$35$",
+        "$45$",
+        "$55$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Find the value of $\\frac{3}{5} \\times \\frac{10}{9} \\div \\frac{2}{3}$.",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$1$",
+        "$\\frac{5}{9}$",
+        "$\\frac{4}{5}$"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Simplify: $(3^2 \\times 2^3)^2 \\times (3^{-1} \\times 2^4)$.",
+      "options": [
+        "$3^3 \\times 2^{10}$",
+        "$3^4 \\times 2^{10}$",
+        "$3^5 \\times 2^7$",
+        "$3^{-2} \\times 2^{10}$"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Simplify: $7^2 - 4^2$.",
+      "options": [
+        "$9$",
+        "$21$",
+        "$33$",
+        "$65$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the value of $(\\sqrt{72})^2$?",
+      "options": [
+        "$6$",
+        "$12$",
+        "$36$",
+        "$72$"
+      ],
+      "answer": 3
+    },
+    {
+      "description": "Sara has opened a t-shirt stand at a local weekend market. To keep track of her inventory, she created a simple chart listing the unit cost of her t-shirts and the quantity she has in stock for each price point.",
+      "image": "../images/T-Shirt.jpg",
+      "question": "Using the data from the chart below, find the mean (average) cost of a single t-shirt in Sara's shop. Round your answer to the nearest cent.",
+      "options": [
+        "$24.25$",
+        "$20.63$",
+        "$13.00$",
+        "$20.83$"
+      ],
+      "answer": 1
+    },
+    {
+      "description": "Using the smaller coordinate graph shown",
+      "image": "../images/slope-graph.jpg",
+      "question": "What is the slope of the line graphed on the coordinate plane?",
+      "options": [
+        "$-1$",
+        "$0$",
+        "$1$",
+        "$2$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Solve the inequality: $3x - 7 \\leq 14$.",
+      "options": [
+        "$x \\leq 7$",
+        "$x \\leq 3$",
+        "$x \\geq 7$",
+        "$x \\geq 3$"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A restaurant lets customers create a meal by choosing 3 types of bread, 5 main fillings, 4 sauces, and 2 side dishes. How many different meals can a customer create?",
+      "options": [
+        "$60$",
+        "$90$",
+        "$120$",
+        "$150$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Factor the expression completely: $56pqx - 21rx$.",
+      "options": [
+        "$7x(8pq - 3r)$",
+        "$14x(4pq - 3r)$",
+        "$7(8pqx - 3r)$",
+        "$21x(3pq - r)$"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the value of $42x - 5y^2$ when $x = 4$ and $y = -6$?",
+      "options": [
+        "$78$",
+        "$108$",
+        "$-12$",
+        "$168$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A charity earns 8 dollars for every ticket sold at a school event. Which inequality can be used to determine the minimum number of tickets, $t$, the school must sell to earn at least 3,200 dollars?",
+      "options": [
+        "$8t < 3{,}200$",
+        "$8t > 3{,}200$",
+        "$8t \\geq 3{,}200$",
+        "$8t \\leq 3{,}200$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A manufacturing company wants to design new cylindrical soup cans. Based on the dimensions shown in the diagram above, what is the volume (capacity) of this cylinder?",
+      "image": "../images/can-shape.jpg",
+      "options": [
+        "$1{,}050\\ \\text{cm}^3$",
+        "$2{,}310\\ \\text{cm}^3$",
+        "$4{,}620\\ \\text{cm}^3$",
+        "$7{,}260\\ \\text{cm}^3$"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A theater donates 1200 dollars to a community program and an additional 0.75 dollars for every ticket sold beyond 1500 tickets. Let $t$ represent the total number of tickets sold. If more than 1500 tickets are sold, which expression represents the total donation?",
+      "options": [
+        "$1200 + 0.75t$",
+        "$1200 + 0.75(1500 - t)$",
+        "$1200 + 0.75(t - 1500)$",
+        "$1200(1500 - t)(0.75)$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A store sells a pack of 3 notebooks for 4.50 dollars. A larger pack of 12 notebooks costs 15 dollars. How much money does a customer save by buying the 12-pack instead of four 3-packs?",
+      "options": [
+        "1.50 dollars",
+        "2.50 dollars",
+        "3.00 dollars",
+        "4.50 dollars"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A jar contains 18 blue marbles, 7 green marbles, and 5 yellow marbles. Two marbles are drawn one after another without putting the first marble back. What is the probability that both marbles are blue?",
+      "options": [
+        "$\\frac{51}{145}$",
+        "$\\frac{9}{30}$",
+        "$\\frac{17}{30}$",
+        "$\\frac{3}{5}$"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A delivery company charges a starting fee of 80 dollars and 4 dollars for each package delivered. Another company charges a starting fee of 50 dollars and 6 dollars per package. If a customer has 15 packages to send, how much more would the customer pay using the second company?",
+      "options": [
+        "0 dollars",
+        "10 dollars",
+        "20 dollars",
+        "30 dollars"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which graph correctly represents the linear equation $4y - 3x = 12$?",
+      "options": [
+        "../images/option-one.jpg",
+        "../images/option-two.jpg",
+        "../images/option-three.jpg",
+        "../images/option-four.jpg"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A community art center selects 8% of the students in its art program to participate in a special exhibition. If 16 students are selected, how many students are enrolled in the program?",
+      "options": [
+        "$128$",
+        "$160$",
+        "$200$",
+        "$240$"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Carlos borrowed 2,400 dollars to purchase equipment for his landscaping business. The loan lasts for 2 years at a simple interest rate of 7%. Which expression could be used to determine the total amount Carlos will repay at the end of the loan?",
+      "options": [
+        "$2400 \\times 2 \\times 0.07$",
+        "$2400 \\times 2.5 \\times 0.07$",
+        "$2400 \\times 7 \\times 2$",
+        "$2400 + (2400 \\times 0.07 \\times 2)$"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The Bakers plan to install hardwood flooring in their kitchen and adjoining dining area as shown in the layout diagram above. What is the total area of the kitchen and dining area in square feet?",
+      "image": "../images/kitchen-area.jpg",
+      "options": [
+        "$176$",
+        "$200$",
+        "$248$",
+        "$320$"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Maria borrowed 1,800 dollars to purchase equipment for her photography business. The loan will be repaid over 2 years at a simple interest rate of 6%. Which expression could be used to calculate the total amount Maria will pay at the end of the loan?",
+      "options": [
+        "$1800 \\times 2.5 \\times 0.06$",
+        "$1800 \\times 2 \\times 6$",
+        "$1800 + (1800 \\times 6 \\times 2)$",
+        "$1800 + (1800 \\times 0.06 \\times 2)$"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "An ice cream shop uses paper waffle cones to serve shaved ice, with the dimensions shown in the diagram above. To the nearest tenth of a cubic inch, what is the volume of each cone?",
+      "image": "../images/cone.jpg",
+      "options": [
+        "$19.2$",
+        "$57.7$",
+        "$76.9$",
+        "$230.9$"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Three adults and two teenagers spend 86 dollars on admission to a concert. A teenager's ticket costs 8 dollars less than an adult's ticket. How much does one adult ticket cost?",
+      "options": [
+        "18 dollars",
+        "20 dollars",
+        "20.40 dollars",
+        "24 dollars"
+      ],
+      "answer": 2
+    },
+    {
+      "description": "A student records the number of text messages they receive each day over a 7-day week. The table shows the results, but the student accidentally deleted the data entry for Thursday.",
+      "image": "../images/text-message.jpg",
+      "isTable": true,
+      "question": "The student knows that the mean number of text messages received per day for the entire week is 38. How many text messages did they receive on Thursday?",
+      "options": [
+        "$25$",
+        "$35$",
+        "$38$",
+        "$44$"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Sofia has 620 dollars available for music classes. She must pay a 60-dollar enrollment fee, and each class costs 40 dollars. What is the greatest number of classes Sofia can attend?",
+      "options": [
+        "$13$",
+        "$14$",
+        "$15$",
+        "$16$"
+      ],
+      "answer": 1
+    }
+  ]
+}

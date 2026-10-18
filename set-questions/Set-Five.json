@@ -1,0 +1,273 @@
+{
+  "questions": [
+    {
+      "question": "Liam is making a fruit punch recipe. He uses \\(\\frac{4}{5}\\) cup of orange juice, \\(\\frac{1}{2}\\) cup of cranberry juice, \\(\\frac{2}{3}\\) cup of pineapple juice, and \\(\\frac{1}{4}\\) cup of lime juice. Arrange the ingredients from the greatest amount to the least amount.",
+      "options": [
+        "Pineapple juice, Orange juice, Lime juice, Cranberry juice",
+        "Orange juice, Pineapple juice, Cranberry juice, Lime juice",
+        "Lime juice, Cranberry juice, Pineapple juice, Orange juice",
+        "Cranberry juice, Lime juice, Orange juice, Pineapple juice"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Two city buses, Route A and Route B, leave the central transit station at the same time. Route A returns to the station every 8 minutes, while Route B returns every 12 minutes. How many minutes will pass before both buses arrive back at the station at the same time?",
+      "options": [
+        "4",
+        "20",
+        "24",
+        "96"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "For which value of \\(x\\) is the expression \\(\\frac{3x-4}{x+8}\\) undefined?",
+      "options": [
+        "\\(x=4\\)",
+        "\\(x=8\\)",
+        "\\(x=-8\\)",
+        "\\(x=\\frac{4}{3}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The points \\(-6\\) and \\(3\\) are plotted on a number line. What is the distance, in units, between the two points?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Simplify the expression: \\((5^7 \\times 2^4) \\times (5^3 \\times 2)^3\\).",
+      "options": [
+        "\\(10^{19}\\)",
+        "\\(10^{30}\\)",
+        "\\(5^{10} \\times 2^7\\)",
+        "\\(5^{16} \\times 2^7\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which expression is equivalent to \\((2x+5)(x+4)\\)?",
+      "options": [
+        "\\(2x+13x+20\\)",
+        "\\(2x^2+13x+20\\)",
+        "\\(2x^2+40x-20\\)",
+        "\\(2x^3+13x+20\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "An auto mechanic charges \\$80 for a vehicle diagnostic test. If the customer has additional repairs done, \\$30 of the diagnostic fee is deducted from the repair cost. Let \\(r\\) represent the cost of the additional repairs. The total cost is given by \\(C=80+(r-30)\\). Maria has her brakes replaced for \\$340. How much does she pay in total?",
+      "options": [
+        "\\$310",
+        "\\$360",
+        "\\$390",
+        "\\$420"
+      ],
+      "answer": 2
+    },
+    {
+      "description": "A scientist is studying red maple tree growth in a state park. She records the trunk diameter of a tree over several years and plots the data points with a linear trendline.",
+      "image": "../images/tree-growth.jpg",
+      "question": "Which linear equation models the line that best fits the data?",
+      "options": [
+        "\\(y=0.5x+15.0\\)",
+        "\\(y=1.0x+14.5\\)",
+        "\\(y=0.5x+15.5\\)",
+        "\\(y=1.5x+14.0\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "An amusement park has \\(h\\) roller coasters. The number of water rides is 15 less than 3 times the number of roller coasters. Which expression represents the number of water rides in terms of \\(h\\)?",
+      "options": [
+        "\\(15<3h\\)",
+        "\\(3(h-15)\\)",
+        "\\(3h-15\\)",
+        "\\(3h<15\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Solve the equation for \\(x\\): \\(\\frac{2x-5}{3}=\\frac{x}{9}\\).",
+      "options": [
+        "\\(x=3\\)",
+        "\\(x=5\\)",
+        "\\(x=\\frac{5}{3}\\)",
+        "\\(x=\\frac{5}{9}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "description": "A triangular glass prism has a total surface area of 2,850 square millimeters. Each triangular base has an area of 180 square millimeters, and each side of the triangular base is 30 millimeters long.",
+      "image": "../images/triangle-prism.jpg",
+      "question": "Which expression can be used to find \\(h\\), the length of the prism?",
+      "options": [
+        "\\(\\frac{2850}{3(30)}\\)",
+        "\\(\\frac{2850}{180}\\)",
+        "\\(\\frac{2850-180}{30}\\)",
+        "\\(\\frac{2850-2(180)}{3(30)}\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Elena earns \\$340 per week plus a 6% commission on all her sales. If Elena sells \\$5,250 worth of merchandise in one week, how much will she earn in total for that week?",
+      "options": [
+        "\\$315.00",
+        "\\$374.00",
+        "\\$655.00",
+        "\\$675.00"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Simplify the expression: \\(\\frac{24a^2+8ab}{4a}\\).",
+      "options": [
+        "\\(6a+2b\\)",
+        "\\(6a+2\\)",
+        "\\(20a+4b\\)",
+        "\\(20a+4\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A store charges \\$11.52 for a case of organic juice boxes. Each case contains 3 packs, and each pack contains 4 individual juice boxes. What is the cost of each individual juice box?",
+      "options": [
+        "\\$0.96",
+        "\\$1.44",
+        "\\$2.88",
+        "\\$3.84"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A tech startup has 8 software developers. Every morning, one developer is randomly selected to receive a coffee voucher. Each day's selection is independent of the previous day's selection. What is the probability that the same developer is selected on two consecutive days?",
+      "options": [
+        "\\(\\frac{1}{64}\\)",
+        "\\(\\frac{1}{16}\\)",
+        "\\(\\frac{1}{8}\\)",
+        "\\(\\frac{1}{4}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Sophia wants to install a fence around her rectangular backyard. The backyard is 24 feet long and 18 feet wide. The fence costs \\$12 per yard. How much will Sophia pay for the fence?",
+      "options": [
+        "\\$168",
+        "\\$336",
+        "\\$504",
+        "\\$1,008"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "An ice cream parlor offers 7 different toppings. Customers can choose any 2 different toppings for a sundae. How many different combinations of 2 toppings are possible?",
+      "options": [
+        "14",
+        "21",
+        "42",
+        "49"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the value of \\(24x-5y^2\\) when \\(x=4\\) and \\(y=-5\\)?",
+      "options": [
+        "-529",
+        "-29",
+        "221",
+        "341"
+      ],
+      "answer": 1
+    },
+    {
+      "description": "A store manager recorded the total number of employee absences for each day during one week and displayed the results in a bar chart.",
+      "image": "../images/employee-absence.jpg",
+      "question": "What is the mode of the number of employee absences for that week?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "14"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A written description of a mathematical expression is shown.\n\n\"The quotient of the sum of 7 and 3 times a number and the difference between 4 times the same number and 5.\"\n\nWhich expression matches the written description?",
+      "options": [
+        "\\(\\frac{3x+7}{4x-5}\\)",
+        "\\(\\frac{3x+7}{5-4x}\\)",
+        "\\((3x+7)(4x-5)\\)",
+        "\\((3x+7)(5-4x)\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "description": "The foundation layout of a modern building consists of two combined rectangular sections, Section A and Section B, as shown in the diagram.",
+      "image": "../images/building-length.jpg",
+      "question": "What is the straight-line distance, to the nearest whole meter, from the top-left corner of Section A to the bottom-right corner of Section B?",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "34"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the slope of a line that is perpendicular to the line \\(y=-6x-4\\)?",
+      "options": [
+        "\\(\\frac{1}{6}\\)",
+        "\\(-\\frac{1}{6}\\)",
+        "\\(6\\)",
+        "\\(-6\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The daily cost, \\(C(x)\\), for a company to manufacture \\(x\\) telescopes is given by the equation \\(C(x)=450+12.5x\\). What is the cost of producing 60 telescopes?",
+      "options": [
+        "\\$27,750",
+        "\\$462.50",
+        "\\$750",
+        "\\$1,200"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "A table containing coordinate pairs for a straight line is shown. What is the slope of the line represented by the table?",
+      "image": "../images/function-table.jpg",
+      "options": [
+        "\\(-3\\)",
+        "\\(-\\frac{1}{3}\\)",
+        "\\(-\\frac{7}{3}\\)",
+        "\\(-4\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The width of a rectangular garden is 15 meters shorter than its length, \\(x\\). The area of the garden is 2,700 square meters. Which equation could be used to find the dimensions of the garden?",
+      "options": [
+        "\\(x^2-15x-2700=0\\)",
+        "\\(x^2+15x-2700=0\\)",
+        "\\(x^2+15x+2700=0\\)",
+        "\\(x^2-15x+2700=0\\)"
+      ],
+      "answer": 0
+    },
+    {
+  "question": "At a school fundraiser, adult tickets cost \\$8 each and student tickets cost \\$5 each. A total of 120 tickets were sold for \\$780. Which system of equations can be used to determine the number of adult tickets, \\(a\\), and student tickets, \\(s\\)?",
+  "options": [
+    "\\(a+s=120\\) and \\(8a+5s=780\\)",
+    "\\(a+s=780\\) and \\(8a+5s=120\\)",
+    "\\(8a+5s=120\\) and \\(a-s=780\\)",
+    "\\(a+s=120\\) and \\(5a+8s=780\\)"
+  ],
+  "answer": 0
+}
+  ]
+}

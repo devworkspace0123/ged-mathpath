@@ -1,0 +1,272 @@
+
+{
+  "questions": [
+    {
+      "question": "Multiply the fractions:\n\n\\[\\frac{8}{7} \\times \\left(-\\frac{3}{4}\\right)\\]",
+      "options": [
+        "\\(-\\frac{32}{21}\\)",
+        "\\(-\\frac{6}{7}\\)",
+        "\\(\\frac{6}{7}\\)",
+        "\\(-\\frac{11}{28}\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Simplify the expression:\n\n\\[(3^6 \\times 5^2) \\times (3^3 \\times 5^4)^2\\]",
+      "options": [
+        "\\(3^9 \\times 5^6\\)",
+        "\\(3^{12} \\times 5^6\\)",
+        "\\(3^{12} \\times 5^{10}\\)",
+        "\\(3^{18} \\times 5^8\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Simplify the expression:\n\n\\[5\\sqrt{3} + 3\\sqrt{3}\\]",
+      "options": [
+        "\\(15\\sqrt{3}\\)",
+        "\\(8\\sqrt{6}\\)",
+        "\\(8\\sqrt{3}\\)",
+        "\\(15\\sqrt{6}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Each carton contains 4 packs of sports drinks. Each pack contains 6 bottles of sports drinks. A warehouse club charges \\$21.60 for one entire carton. What is the cost of each individual bottle of sports drink?",
+      "options": [
+        "\\$0.75",
+        "\\$0.90",
+        "\\$1.10",
+        "\\$1.25"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Between which pair of decimals should the fraction \\(\\frac{3}{8}\\) be placed on a number line?",
+      "options": [
+        "0.2 and 0.3",
+        "0.3 and 0.4",
+        "0.4 and 0.5",
+        "0.5 and 0.6"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A catering company uses the expression \\(35h + 15p\\) to calculate the total bill for an event, where \\(h\\) is the number of hours worked and \\(p\\) is the number of guests. An event requires 5 hours of work and has 40 guests. How much will the total bill be?",
+      "options": [
+        "735",
+        "775",
+        "815",
+        "850"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The price of Marcus's restaurant dinner bill before sales tax and tip was \\$14.50. Marcus paid a 6% sales tax, then added an 18% tip to the new subtotal. To the nearest cent, how much did Marcus pay for his dinner?",
+      "options": [
+        "\\$17.11",
+        "\\$17.98",
+        "\\$18.14",
+        "\\$15.37"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The Lopez family's property is a rectangular lot with a total length of 120 feet and a total width of 90 feet. A L-shaped house footprint is positioned in the corner as shown in the diagram.\n\nWhat is the area, in square feet, of the remaining grass lawn?",
+      "image": "../images/lawn-composite-area-hard.jpg",
+      "options": [
+        "7,400",
+        "8,200",
+        "9,000",
+        "9,600"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The line graph shows the monthly website traffic at an online retail store.\n\nIn which month did the monthly website traffic increase the most?",
+      "image": "../images/website-traffic-graph.jpg",
+      "options": [
+        "September",
+        "November",
+        "December",
+        "January"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A water reservoir initially contains 800 gallons of water. Due to a small leak, it loses water at a constant rate of 12 gallons per hour. At the same time, solar evaporation causes the reservoir to lose an additional 3 gallons of water every 20 minutes. Which expression represents the total amount of water, in gallons, remaining in the reservoir after \\(h\\) hours?",
+      "options": [
+        "\\(800 - 15h\\)",
+        "\\(800 - 21h\\)",
+        "\\(800 - 12h - 3h\\)",
+        "\\(800 - 72h\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Add:\n\n\\[\\frac{2}{x - 1} + \\frac{x}{x + 3}\\]",
+      "options": [
+        "\\(\\frac{x + 2}{2x + 2}\\)",
+        "\\(\\frac{x^2 - x + 6}{(x - 1)(x + 3)}\\)",
+        "\\(\\frac{x^2 + x + 6}{(x - 1)(x + 3)}\\)",
+        "\\(\\frac{x^2 + x + 2}{(x - 1)(x + 3)}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "In a batch of light bulbs from a factory, the probability that a bulb is defective is \\(\\frac{1}{40}\\). If Logan randomly selects 2 independent light bulbs from the batch, what is the probability that both bulbs are defective?",
+      "options": [
+        "\\(\\frac{1}{20}\\)",
+        "\\(\\frac{1}{40}\\)",
+        "\\(\\frac{1}{80}\\)",
+        "\\(\\frac{1}{1,600}\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Points P, Q, and R are plotted on a coordinate grid.\n\nWhat are the coordinates of the points on the coordinate grid?",
+      "image": "../images/coordinate-grid-points-small.jpg",
+      "options": [
+        "P(2, -3); Q(-1, 4); R(-4, 0)",
+        "P(-3, 2); Q(4, -1); R(0, -4)",
+        "P(-3, 2); Q(4, -1); R(-4, 0)",
+        "P(2, -3); Q(4, -1); R(0, -4)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A local coffee shop uses the equation \\(C = 1.50 + 0.60e\\) to calculate the cost, \\(C\\), in dollars, of a customized latte with \\(e\\) extra espresso shots. What does the number 0.60 in the equation represent?",
+      "options": [
+        "the base price of a plain latte",
+        "the price of each extra espresso shot",
+        "the total cost of the customized latte",
+        "the total number of extra espresso shots added"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the equation of the line that has a slope of -3 and passes through the point \\((2, 7)\\)?",
+      "options": [
+        "\\(x + 3y = 23\\)",
+        "\\(3x + y = 13\\)",
+        "\\(x - 3y = -19\\)",
+        "\\(3x - y = -1\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Sarah is comparing two online custom printing companies to order personalized mugs. The first company charges \\$8 per mug plus a flat setup and shipping fee of \\$15. The second company uses the equation \\(C = 7n + 22\\) to calculate the total cost, \\(C\\), of purchasing \\(n\\) mugs. What is the difference in total cost between the two companies if Sarah orders 12 mugs?",
+      "options": [
+        "\\$2",
+        "\\$5",
+        "\\$7",
+        "\\$11"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The table below shows the total population and land area, in square kilometers, for Country A and Country B.\n\nTo the nearest whole number, what is the difference between the population density, in people per square kilometer, of Country A and Country B?",
+      "image": "../images/population-density-variant.jpg",
+      "isTable": true,
+      "options": [
+        "150",
+        "333",
+        "483",
+        "633"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the value of \\(f(x) = 2x^2 - 5\\) when \\(x = -4\\)?",
+      "options": [
+        "-37",
+        "-21",
+        "11",
+        "27"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Solve:\n\n\\[3x^2 - 2x - 5 = 0\\]",
+      "options": [
+        "\\(x = 1\\) and \\(x = \\frac{5}{3}\\)",
+        "\\(x = -1\\) and \\(x = \\frac{5}{3}\\)",
+        "\\(x = -1\\) and \\(x = \\frac{3}{5}\\)",
+        "\\(x = \\frac{3}{5}\\) and \\(x = 1\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The manager of a fitness center tracked the weight loss of participants in a training program. The list shows how many pounds each participant lost over the course of the semester.\n\n14.1, 15.6, 13.8, 15.2, 13.8, 14.3, 14.9, 13.5, 15.1, 15.4\n\nWhat is the median number of pounds lost by a participant?",
+      "options": [
+        "13.8",
+        "14.1",
+        "14.6",
+        "14.9"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Carlos is organizing a community banquet. He has a maximum budget of \\$1,550 to cover the flat setup fee for the hall rental and provide a catered dinner. He expects 42 guests to attend. The flat setup fee for the hall is \\$350. Which inequality can be used to find \\(x\\), the maximum amount Carlos can spend on dinner for each guest?",
+      "options": [
+        "\\(42x + 350 \\geq 1,550\\)",
+        "\\(42x + 350 \\leq 1,550\\)",
+        "\\(350x + 42 \\geq 1,550\\)",
+        "\\(350x + 42 \\leq 1,550\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A glass fish tank is shaped like a rectangular prism. The base of the tank has a length of 10 inches (in.) and a width of 4 in. The height of the tank is 6 in.\n\nWhat is the maximum volume of water, in cubic inches, that the fish tank can hold?",
+      "image": "../images/fish-tank-volume.jpg",
+      "options": [
+        "40",
+        "104",
+        "240",
+        "288"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A student committee is selecting a pair of co-captains to organize a charity event. There are 7 students volunteering, and the committee must choose any 2 of them to lead. How many different combinations of 2 co-captains are possible?",
+      "options": [
+        "14",
+        "21",
+        "42",
+        "49"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the simplified form of the expression \\(4x^2y + 3xy + 4x^2y + 6xy\\)?",
+      "options": [
+        "\\(8x^4y^2 + 9x^2y^2\\)",
+        "\\(8x^2y + 9xy\\)",
+        "\\(17x^4 + y^2\\)",
+        "\\(8x^2y + 10xy\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A system of equations is shown:\n\n\\[3x + 2y = 7\\]\n\\[3x - 2y = -19\\]\n\nWhat is the value of \\(x\\)?",
+      "options": [
+        "-6",
+        "-2",
+        "2",
+        "4"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the slope of a line that is perpendicular to \\(3x - 4y = 8\\)?",
+      "options": [
+        "\\(-\\frac{4}{3}\\)",
+        "\\(-\\frac{3}{4}\\)",
+        "\\(\\frac{3}{4}\\)",
+        "\\(\\frac{4}{3}\\)"
+      ],
+      "answer": 0
+    }
+  ]
+}
+

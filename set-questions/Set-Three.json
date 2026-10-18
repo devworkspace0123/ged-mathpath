@@ -1,0 +1,270 @@
+{
+  "questions": [
+    {
+      "question": "Arrange the following numbers from least to greatest:\n\n\\[0.35, \\frac{2}{5}, 0.5, \\frac{1}{4}\\]",
+      "options": [
+        "\\(\\frac{2}{5}, 0.35, 0.5, \\frac{1}{4}\\)",
+        "\\(\\frac{1}{4}, 0.35, \\frac{2}{5}, 0.5\\)",
+        "\\(0.35, \\frac{1}{4}, \\frac{2}{5}, 0.5\\)",
+        "\\(\\frac{1}{4}, \\frac{2}{5}, 0.35, 0.5\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which number makes the equation true?\n\n\\[(\\sqrt{\\square})^2 = \\sqrt{81}\\]",
+      "options": [
+        "81",
+        "9",
+        "3",
+        "18"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the greatest common factor (GCF) of 32 and 48?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Simplify the expression:\n\n\\[(3^9 \\div 3^4) \\times 3^3\\]",
+      "options": [
+        "\\(3^2\\)",
+        "\\(3^5\\)",
+        "\\(3^8\\)",
+        "\\(3^{10}\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Simplify the expression:\n\n\\[(5^7 \\times 5^2) \\div 5^4\\]",
+      "options": [
+        "\\(5^1\\)",
+        "\\(5^5\\)",
+        "\\(5^9\\)",
+        "\\(5^{13}\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The triangle shown in the diagram has an area of 30 square centimeters.\n\nWhat is \\(h\\), the height in centimeters, of the triangle?",
+      "image": "../images/triangle-side.jpg",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "15"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Maya has \\$60 to spend on a gym membership and fitness classes each month. The basic monthly fee for gym access is \\$29.99. Each fitness class costs \\$4.25. Let \\(c\\) represent the number of fitness classes Maya attends. The inequality \\(4.25c + 29.99 \\leq 60\\) represents Maya's monthly fitness budget. What is the maximum number of fitness classes that Maya can attend without going over her monthly budget?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "21"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Multiply:\n\n\\[(4x - 3)(4x - 3)\\]",
+      "options": [
+        "\\(16x^2 - 9\\)",
+        "\\(16x^2 - 24x + 9\\)",
+        "\\(16x^2 + 9\\)",
+        "\\(16x^2 - 12x + 9\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A graph is shown.\n\nWhat is the slope of the line shown on the graph?",
+      "image": "../images/slope-graph-2.jpg",
+      "options": [
+        "\\(-2\\)",
+        "\\(-\\frac{1}{2}\\)",
+        "\\(\\frac{1}{2}\\)",
+        "\\(2\\)"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which expression is equivalent to\n\n\\[(5x + 6xy - 8y) - (2x + 3xy - 5y)\\]",
+      "options": [
+        "\\(3x + 3xy - 13y\\)",
+        "\\(3x + 3xy - 3y\\)",
+        "\\(7x + 9xy - 12y\\)",
+        "\\(3x + 6xy - 3y\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The graph shows an electrician's fees, \\(f(x)\\), in terms of the hours worked, \\(x\\). The fees include a fixed service call fee and an hourly rate.\n\nWhat is the electrician's hourly rate?",
+      "image": "../images/fee-graph.jpg",
+      "options": [
+        "\\$30",
+        "\\$40",
+        "\\$50",
+        "\\$70"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which pair of equations represents parallel lines?",
+      "options": [
+        "\\(-4x + y - 5 = 0\\)\n\\(y = -\\frac{1}{4}x + 2\\)",
+        "\\(2x + y = 6\\)\n\\(y = 2x + 6\\)",
+        "\\(x - 3y = 9\\)\n\\(-x + 3y = 6\\)",
+        "\\(-\\frac{3}{4}x + y = 8\\)\n\\(y = -\\frac{4}{3}x - 5\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "David is designing a rectangular backyard garden. The total length of the garden is 3 times its width, \\(x\\). He reserves a 5-foot section along the length for a paved patio, leaving the rest of the space for a grass lawn.\n\nDavid wants the area of the grass lawn to be 150 square feet. Which equation can be used to find \\(x\\), the width, in feet, of the garden?",
+      "image": "../images/garden-layout.jpg",
+      "options": [
+        "\\(x(3x + 5) = 150\\)",
+        "\\(x(3x - 5) = 150\\)",
+        "\\(3x(x - 5) = 150\\)",
+        "\\(3x^2 - 5 = 150\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The maximum speed of a coast guard patrol boat is 20 knots. A knot is the speed of a vessel in nautical miles per hour. What is the maximum speed, in miles per hour, of the patrol boat? (1 nautical mile = 6,076 feet; 1 mile = 5,280 feet)",
+      "options": [
+        "17 miles per hour",
+        "20 miles per hour",
+        "23 miles per hour",
+        "26 miles per hour"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which table shows a function?",
+      "options": [
+        "../images/table-1.jpg",
+        "../images/table-2.jpg",
+        "../images/table-3.jpg",
+        "../images/table-4.jpg"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the value of \\(15x - 4y^2\\) when \\(x = 6\\) and \\(y = -3\\)?",
+      "options": [
+        "126",
+        "102",
+        "54",
+        "-54"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A sphere has a radius of 5.5 centimeters (cm).\n\nTo the nearest cubic centimeter, what is the volume of the sphere?",
+      "image": "../images/sphere-volume.jpg",
+      "options": [
+        "95",
+        "380",
+        "697",
+        "2,788"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Subtract:\n\n\\[(5x - 2y) - (2x - 6y)\\]",
+      "options": [
+        "\\(3x - 8y\\)",
+        "\\(3x + 4y\\)",
+        "\\(7x - 8y\\)",
+        "\\(7x + 4y\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A group of friends goes to an amusement park. The price of an adult admission ticket is \\(a\\) dollars. The price of a VIP season pass is 15 dollars less than 4 times the price of an adult admission ticket. Which expression represents the price of a VIP season pass in terms of \\(a\\)?",
+      "options": [
+        "\\(4a - 15\\)",
+        "\\(15 - 4a\\)",
+        "\\(4(a - 15)\\)",
+        "\\(4a < 15\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The security codes for the lockers at a local gym are created using the letters X, Y, and Z and the digits 1 through 8. How many unique locker codes can be created if each code consists of a single letter followed by a single digit?",
+      "options": [
+        "11",
+        "24",
+        "32",
+        "18"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A camping tent is shaped like a triangular prism. The two bases of the tent are equilateral triangles, each with a side length of 6 feet. The total surface area of the tent's fabric is 190 square feet, and the area of each triangular base is 15.6 square feet. Which expression can be used to find \\(h\\), the length, in feet, of the tent?",
+      "image": "../images/tent-prism.jpg",
+      "options": [
+        "\\(\\frac{190 - 2(15.6)}{3(6)}\\)",
+        "\\(\\frac{190 - 15.6}{6}\\)",
+        "\\(\\frac{190}{3(6)}\\)",
+        "\\(\\frac{190 - 2(15.6)}{6}\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Solve the inequality:\n\n\\[6x + 18 \\leq -90\\]",
+      "options": [
+        "\\(x \\leq -12\\)",
+        "\\(x \\geq -18\\)",
+        "\\(x \\leq -18\\)",
+        "\\(x \\geq -12\\)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A package of 2 donuts costs \\$1.80. A dozen donuts costs \\$8.40. How much money is saved if a person buys a dozen donuts instead of purchasing packages of 2 donuts?",
+      "options": [
+        "\\$1.20",
+        "\\$1.80",
+        "\\$2.40",
+        "\\$3.60"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Solve the quadratic equation for \\(x\\):\n\n\\[x^2 - 3x - 10 = 0\\]",
+      "options": [
+        "\\(x = 2\\) or \\(x = -5\\)",
+        "\\(x = -2\\) or \\(x = 5\\)",
+        "\\(x = -1\\) or \\(x = 10\\)",
+        "\\(x = 1\\) or \\(x = -10\\)"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A line has a slope of 3 and passes through the point \\((2, 5)\\). What is the equation of the line in slope-intercept form?",
+      "options": [
+        "\\(y = 3x - 1\\)",
+        "\\(y = 3x + 1\\)",
+        "\\(y = 3x + 11\\)",
+        "\\(y = -3x + 11\\)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "For the end-of-season party, Coach Marcus wants to buy cupcakes for his team. There are 18 players on the team roster. At the local bakery, a pack of 6 cupcakes costs \\$4.25. What will it cost him to buy enough cupcakes for his entire team?",
+      "options": [
+        "\\$8.50",
+        "\\$12.75",
+        "\\$17.00",
+        "\\$25.50"
+      ],
+      "answer": 1
+    }
+  ]
+}
